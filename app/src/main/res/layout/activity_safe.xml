@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/word_f_345"
+        >
+        <!-- 更换绑定手机号 -->
+        <RelativeLayout
+            android:id="@+id/safe_changephonerela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/lay_10"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/lay_16"
+            android:paddingRight="@dimen/lay_8"
+            android:paddingTop="@dimen/lay_8"
+            android:paddingBottom="@dimen/lay_8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:gravity="center"
+                android:text="@string/Word_changephone"
+                android:textSize="@dimen/font_14"
+                android:textColor="@color/word_six_four"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:id="@+id/safe_iv1"
+                android:layout_width="@dimen/lay_36"
+                android:layout_height="@dimen/lay_36"
+                android:src="@mipmap/main_setting_enter"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+            <TextView
+                android:id="@+id/safe_phonenum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/safe_iv1"
+                android:textColor="@color/word_six_nine"
+                android:textSize="@dimen/font_13"
+                />
+        </RelativeLayout>
+
+        <!-- 修改密码 -->
+        <RelativeLayout
+            android:id="@+id/safe_changepswrela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/safe_changephonerela"
+            android:layout_marginTop="@dimen/lay_1px"
+            android:background="@color/white"
+            android:paddingLeft="@dimen/lay_16"
+            android:paddingRight="@dimen/lay_8"
+            android:paddingTop="@dimen/lay_8"
+            android:paddingBottom="@dimen/lay_8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:gravity="center"
+                android:text="@string/Word_changepsw"
+                android:textSize="@dimen/font_14"
+                android:textColor="@color/word_six_four"
+                android:layout_centerVertical="true"/>
+
+            <ImageView
+                android:layout_width="@dimen/lay_36"
+                android:layout_height="@dimen/lay_36"
+                android:src="@mipmap/main_setting_enter"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>

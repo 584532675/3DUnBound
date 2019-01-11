@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@drawable/yuanjiaowhite_border"
+     >
+
+
+		<RelativeLayout
+			android:id="@+id/noticeupdate_rela"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/noticeupdate_tv2"
+			android:layout_centerHorizontal="true"
+			android:padding="20dp"
+			>
+
+		<Button
+			android:id="@+id/noticeupdate_yesbtn"
+			android:layout_width="88dp"
+			android:layout_height="35dp"
+			android:textColor="@drawable/white2black_textcolor"
+			android:gravity="center"
+			android:text="@string/sure_btn"
+			android:textSize="13sp"
+			android:background="@drawable/buttonbtn_selector"
+			/>
+		<Button
+			android:id="@+id/noticeupdate_canclebtn"
+			android:layout_width="88dp"
+			android:layout_height="35dp"
+			android:layout_toRightOf="@+id/noticeupdate_yesbtn"
+			android:layout_alignBottom="@+id/noticeupdate_yesbtn"
+			android:layout_marginLeft="40dp"
+			android:textColor="@drawable/white2black_textcolor"
+			android:gravity="center"
+			android:text="@string/cancle_btn"
+			android:textSize="13sp"
+			android:background="@drawable/buttonbtn_selector"
+			/>
+
+		</RelativeLayout>
+
+		<TextView
+			 android:id="@+id/noticeupdate_tv1"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="13dp"
+			android:gravity="center"
+			android:text="@string/update_title"
+			android:textColor="@color/word_six_four"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentLeft="true"
+			android:layout_alignParentStart="true" />
+
+		<TextView
+			android:id="@+id/noticeupdate_tv2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="13dp"
+			android:textColor="@color/word_six_four"
+			android:text="@string/update_content"
+			android:layout_below="@+id/noticeupdate_tv1"
+			android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

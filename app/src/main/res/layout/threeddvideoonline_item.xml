@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.VideosActivity"
+    >
+
+    <!-- 图片区域 -->
+    <RelativeLayout
+        android:id="@+id/threeddfragitem_ivrela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/threeddfragitem_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/defaultloading_fourthreeimg"
+            android:scaleType="centerCrop"
+            android:background="@color/word_six_e"
+            />
+        <!-- 影片时长 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/half_transparent2"
+            >
+            <TextView
+                android:id="@+id/threeddfragitem_timelongtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_14"
+                android:background="@android:color/transparent"
+                android:paddingTop="@dimen/lay_4"
+                android:paddingBottom="@dimen/lay_4"
+                android:paddingLeft="@dimen/lay_8"
+                android:paddingRight="@dimen/lay_8"
+                android:text="@string/Word_timelong"
+                />
+        </RelativeLayout>
+        <!-- 试看 -->
+        <TextView
+            android:id="@+id/threeddfragitem_trytv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_11"
+            android:background="@drawable/threedd_paytv"
+            android:paddingTop="@dimen/lay_2"
+            android:paddingBottom="@dimen/lay_2"
+            android:paddingLeft="@dimen/lay_5"
+            android:paddingRight="@dimen/lay_5"
+            android:text="@string/Word_try"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <!-- 名称 -->
+    <RelativeLayout
+        android:id="@+id/threeddfragitem_namerela"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/threeddfragitem_ivrela"
+        android:layout_marginTop="@dimen/lay_8"
+        >
+        <TextView
+            android:id="@+id/threeddfragitem_nametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/word_six_four"
+            android:textSize="@dimen/font_15"
+            android:ellipsize="end"
+            android:maxLines="1"
+            />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_12"
+        android:layout_below="@+id/threeddfragitem_namerela"
+        android:background="@color/white"
+        />
+
+
+
+</RelativeLayout>

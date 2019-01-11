@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_splash"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.SplashActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/word_f_345"
+        >
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/mymsg_swiperefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/lay_10"
+            android:layout_centerHorizontal="true"
+            >
+        <ListView
+            android:id="@+id/mymsg_lv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/word_f_5"
+            android:dividerHeight="@dimen/lay_1"
+            />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

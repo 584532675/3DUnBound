@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingTop="@dimen/lay_14"
+    android:paddingBottom="@dimen/lay_14"
+    android:paddingLeft="@dimen/lay_14"
+    android:paddingRight="@dimen/lay_14"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.AttentionActivity">
+
+    <ImageView
+        android:id="@+id/attention_headviewiv"
+        android:layout_width="@dimen/lay_64"
+        android:layout_height="@dimen/lay_64"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/head_noimg"
+        />
+    <TextView
+        android:id="@+id/attention_nicknametv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/attention_headviewiv"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/lay_8"
+        android:textColor="@color/word_six_two"
+        android:textSize="@dimen/font_15"
+        />
+    <TextView
+        android:id="@+id/attention_canclebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@drawable/gray2black_textcolor"
+        android:text="@string/cancle_attention"
+        android:background="@drawable/gray_border"
+        android:paddingTop="@dimen/lay_8"
+        android:paddingBottom="@dimen/lay_8"
+        android:paddingLeft="@dimen/lay_11"
+        android:paddingRight="@dimen/lay_11"
+        />
+</RelativeLayout>

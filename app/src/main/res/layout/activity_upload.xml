@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/upload_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/word_f_345"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+        <!-- 照片区域 -->
+        <RelativeLayout
+            android:id="@+id/upload_picrela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/lay_10"
+            android:background="@color/white"
+            android:paddingTop="@dimen/lay_15"
+            android:paddingLeft="@dimen/lay_10"
+            >
+            <RelativeLayout
+                android:id="@+id/upload_imgivrela"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="@color/word_six_e"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/word_six_nine"
+                    />
+                <ImageView
+                    android:id="@+id/upload_imgiv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:scaleType="centerCrop"
+                    />
+                <ImageView
+                    android:id="@+id/upload_addpiciv"
+                    android:layout_width="@dimen/lay_30"
+                    android:layout_height="@dimen/lay_30"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/post_pitcture"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+         <!-- 名称，简介区域 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/upload_picrela"
+            android:background="@color/white"
+            >
+            <!-- 简介区域  -->
+            <RelativeLayout
+                android:id="@+id/upload_jianjierela"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/lay_10"
+                android:layout_marginLeft="@dimen/lay_15"
+                android:layout_marginRight="@dimen/lay_15"
+                android:background="@drawable/yuanjiaogray700_border"
+                android:paddingLeft="@dimen/lay_10"
+                android:paddingRight="@dimen/lay_10"
+                android:paddingTop="@dimen/lay_10"
+                android:paddingBottom="@dimen/lay_10"
+                >
+                <TextView
+                    android:id="@+id/upload_jianjietv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/Word_biaoti"
+                    android:textColor="@color/word_six_two"
+                    />
+                <com.unbounded.video.view.banner.containsEmojiEditText.ContainsEmojiEditText
+                    android:id="@+id/upload_jianjieedt"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/lay_24"
+                    android:layout_centerVertical="true"
+                    android:gravity="center_vertical"
+                    android:layout_toRightOf="@+id/upload_jianjietv"
+                    android:layout_marginLeft="@dimen/lay_6"
+                    android:layout_marginRight="@dimen/lay_6"
+                    android:maxLines="1"
+                    android:maxLength="15"
+                    android:inputType="text"
+                    android:hint="@string/Word_jianjiehint"
+                    android:textColorHint="@color/word_six_c"
+                    android:textSize="@dimen/font_14"
+                    android:textColor="@color/word_six_four"
+                    android:background="@null"
+                    />
+            </RelativeLayout>
+            <!-- 描述 -->
+            <RelativeLayout
+                android:id="@+id/upload_miaoshurela"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/upload_jianjierela"
+                android:layout_marginTop="@dimen/lay_10"
+                android:layout_marginLeft="@dimen/lay_15"
+                android:layout_marginRight="@dimen/lay_15"
+                android:background="@drawable/yuanjiaogray700_border"
+                android:paddingLeft="@dimen/lay_10"
+                android:paddingRight="@dimen/lay_10"
+                android:paddingTop="@dimen/lay_10"
+                android:paddingBottom="@dimen/lay_10"
+                >
+                <TextView
+                    android:id="@+id/upload_miaoshutv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Word_jianjie"
+                    android:textColor="@color/word_six_two"
+                    />
+                <com.unbounded.video.view.banner.containsEmojiEditText.ContainsEmojiEditText
+                    android:id="@+id/upload_miaoshuedt"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/lay_72"
+                    android:gravity="top"
+                    android:layout_toRightOf="@+id/upload_miaoshutv"
+                    android:layout_marginLeft="@dimen/lay_6"
+                    android:layout_marginRight="@dimen/lay_6"
+                    android:maxLength="200"
+                    android:singleLine="false"
+                    android:hint="@string/Word_miaoshuhint"
+                    android:textColorHint="@color/word_six_c"
+                    android:textSize="@dimen/font_14"
+                    android:textColor="@color/word_six_four"
+                    android:background="@null"
+                    />
+            </RelativeLayout>
+
+            <!-- 协议 -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/videoupload_uploadbtn"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/lay_10"
+                >
+                <ImageView
+                    android:id="@+id/videoupload_selectiv"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:src="@mipmap/unselect"
+                    />
+                <TextView
+                    android:id="@+id/videoupload_contenttv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/word_six_four"
+                    android:textSize="@dimen/font_12"
+                    android:text="@string/Word_3dagree"
+                    />
+                <TextView
+                    android:id="@+id/videoupload_contenttv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue300"
+                    android:textSize="@dimen/font_12"
+                    android:text="@string/Word_uploadselect"
+                    />
+            </LinearLayout>
+
+            <!-- 底部按钮 -->
+            <Button
+                android:id="@+id/videoupload_uploadbtn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_52"
+                android:background="@color/blued6"
+                android:text="@string/upload"
+                android:textColor="@drawable/white2black_textcolor"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

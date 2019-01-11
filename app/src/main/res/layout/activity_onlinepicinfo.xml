@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.OnlinePicInfoActivity">
+
+    <RelativeLayout
+        android:layout_width="1px"
+        android:layout_height="1px">
+        <com.unbounded.video.utils.facedetector.CameraView
+            android:id="@+id/onlinepicinfo_cameraview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/word_f_7"
+        >
+
+        <com.stereo.GlSurfaceView.PictureGLSurfaceView
+            android:id="@+id/movie_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+
+        <ImageView
+            android:id="@+id/ivpic_eyes_tacking"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@mipmap/eyes_not_tracking"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:visibility="visible"
+            />
+        <ImageView
+            android:id="@+id/onlinepicinfo_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@mipmap/defaultloading_fourthreeimg"
+            android:background="@color/word_f_5"
+            android:scaleType="fitCenter"
+            android:visibility="gone"/>
+        <!-- title -->
+        <RelativeLayout
+            android:id="@+id/onlinepicinfo_titlerela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/lay_12"
+            android:paddingRight="@dimen/lay_12"
+            android:paddingTop="23dp"
+            android:paddingBottom="23dp"
+            android:background="@drawable/gradientdrawable"
+            android:visibility="gone"
+            >
+            <Button
+                android:id="@+id/onlinepicinfo_backbtn"
+                android:layout_width="@dimen/lay_20"
+                android:layout_height="@dimen/lay_20"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/whitebackbtn"
+                />
+            <TextView
+                android:id="@+id/onlinepicinfo_formattv"
+                android:layout_width="72dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@drawable/redee2gray_textcolor"
+                android:textSize="@dimen/font_14"
+                android:text="图片格式"
+                android:gravity="center"
+                android:background="@drawable/yuanbordtranredee_border"
+                android:paddingTop="1dp"
+                />
+            <TextView
+                android:id="@+id/onlinepicinfo_modeltv"
+                android:layout_width="42dp"
+                android:layout_height="25dp"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/onlinepicinfo_formattv"
+                android:layout_marginRight="@dimen/lay_10"
+                android:textColor="@drawable/redee2gray_textcolor"
+                android:textSize="@dimen/font_14"
+                android:text="2D"
+                android:gravity="center"
+                android:background="@drawable/yuanbordtranredee_border"
+                android:paddingTop="1dp"
+                />
+            <TextView
+                android:id="@+id/onlinepicinfo_nametv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/onlinepicinfo_backbtn"
+                android:layout_toLeftOf="@+id/onlinepicinfo_modeltv"
+                android:layout_marginRight="@dimen/lay_2"
+                android:layout_marginLeft="@dimen/lay_10"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_15"
+                />
+        </RelativeLayout>
+
+        <!-- 下面下载，收藏,分享 -->
+        <LinearLayout
+            android:id="@+id/onlinepicinfo_btnslinear"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lay_50"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:background="@drawable/playbottomdrawable"
+            android:visibility="gone"
+            >
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                >
+                <Button
+                    android:id="@+id/onlinepicinfo_downloadbtn"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/whitedownbtn1"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <Button
+                    android:id="@+id/onlinepicinfo_collectbtn"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/whitecollectbtn1"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:visibility="gone"
+                >
+                <Button
+                    android:id="@+id/onlinepicinfo_sharebtn"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/whitesharebtn1"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>

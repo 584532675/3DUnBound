@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yuanjiaowhite_border"
+	android:paddingTop="20dp"
+     >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/notice_line1"
+		android:orientation="horizontal"
+		>
+	<Button
+	    android:id="@+id/notice_yesbtn"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:textColor="@color/redee"
+		android:gravity="center"
+        android:text="@string/sure_btn"
+        android:textSize="16sp"
+	    android:background="@drawable/yuanjiaowhite_border"
+	    />
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/notice_tv1"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginLeft="@dimen/lay_20"
+		android:layout_marginRight="@dimen/lay_20"
+		android:gravity="center"
+		android:textColor="@color/word_six_two"
+		android:textSize="@dimen/font_16"
+		android:layout_alignParentTop="true"
+		/>
+
+	<TextView
+	    android:id="@+id/notice_tv2"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginLeft="@dimen/lay_20"
+		android:layout_marginRight="@dimen/lay_20"
+		android:layout_marginTop="6dp"
+		android:gravity="center"
+		android:textColor="@color/word_six_four"
+		android:layout_below="@+id/notice_tv1"
+		/>
+	<TextView
+		android:id="@+id/notice_line1"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/lay_1px"
+		android:background="@color/threea_three2"
+		android:layout_below="@+id/notice_tv2"
+		android:layout_marginTop="13dp"
+		/>
+
+</RelativeLayout>

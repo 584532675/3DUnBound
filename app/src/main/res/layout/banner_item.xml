@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/word_six_e"
+    >
+
+ <TextView 
+     android:id="@+id/banneritem_textview"
+     android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+     />
+   
+   <ImageView
+       android:id="@+id/banneritem_image"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:src="@mipmap/defaultloading_fourthreeimg"
+       android:scaleType="fitXY"
+        />
+
+</LinearLayout>

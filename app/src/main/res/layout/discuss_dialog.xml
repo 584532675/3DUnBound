@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/lay_15"
+    android:paddingBottom="@dimen/lay_15"
+    android:paddingLeft="@dimen/lay_20"
+    android:paddingRight="@dimen/lay_20"
+    android:background="@drawable/yuanjiaowhite_border"
+    >
+
+    <TextView
+        android:id="@+id/discuss_discussword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/word_six_four"
+        android:textSize="@dimen/font_16"
+        android:text="@string/Word_discuss"
+        />
+
+    <com.unbounded.video.view.banner.containsEmojiEditText.ContainsEmojiEditText
+        android:id="@+id/discuss_contentedt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/lay_120"
+        android:layout_below="@+id/discuss_discussword"
+        android:gravity="start"
+        android:layout_marginTop="@dimen/lay_12"
+        android:hint="@string/Word_discussdialoghint"
+        android:textColorHint="@color/word_six_c"
+        android:textSize="@dimen/font_14"
+        android:textColor="@color/word_six_six"
+        android:background="@drawable/yuanjiaograywhite_border"
+        android:padding="@dimen/lay_4"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/discuss_contentedt"
+        android:layout_marginTop="@dimen/lay_15"
+        android:layout_centerHorizontal="true"
+        >
+        <Button
+            android:id="@+id/discuss_yesbtn"
+            android:layout_width="@dimen/lay_88"
+            android:layout_height="@dimen/lay_35"
+            android:text="@string/sure_btn"
+            android:textColor="@drawable/white2black_textcolor"
+            android:background="@drawable/buttonbtn_selector"
+            android:textSize="@dimen/font_14"
+            />
+        <Button
+            android:id="@+id/discuss_nobtn"
+            android:layout_width="@dimen/lay_88"
+            android:layout_height="@dimen/lay_35"
+            android:layout_toRightOf="@+id/discuss_yesbtn"
+            android:layout_marginLeft="@dimen/lay_40"
+            android:text="@string/cancle_btn"
+            android:textColor="@drawable/white2black_textcolor"
+            android:background="@drawable/buttonbtn_selector"
+            android:textSize="@dimen/font_14"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

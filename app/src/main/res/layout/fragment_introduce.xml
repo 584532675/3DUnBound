@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/word_f_345"
+        android:paddingTop="@dimen/lay_12"
+        android:paddingLeft="@dimen/lay_16"
+        android:paddingRight="@dimen/lay_16"
+        >
+        <TextView
+            android:id="@+id/introducefragment_steptagtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/word_six_four"
+            android:textSize="@dimen/font_16"
+            />
+        <TextView
+            android:id="@+id/introducefragment_stepinfotv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/introducefragment_steptagtv"
+            android:layout_marginTop="@dimen/lay_8"
+            android:textColor="@color/word_six_nine"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/introducefragment_stepinfotv"
+            >
+            <ImageView
+                android:id="@+id/introducefragment_stepiv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+</RelativeLayout>

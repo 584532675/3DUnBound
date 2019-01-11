@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 指定使用渐变背景色，使用sweep类型的渐变，颜色从红色到绿色再到蓝色 -->
+<!--    <gradient android:startColor="@color/orangef5"
+        android:centerColor="@color/orangeff"
+        android:endColor="@color/orangefa"
+        android:angle="0"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        />-->
+
+    <gradient android:startColor="@color/theme_color"
+        android:centerColor="@color/theme_color"
+        android:endColor="@color/theme_color"
+        android:angle="0"
+        android:centerX="0.5"
+        android:centerY="0.5"
+        />
+</shape>

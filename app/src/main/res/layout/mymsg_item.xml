@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingTop="@dimen/lay_10"
+    android:paddingBottom="@dimen/lay_10"
+    android:paddingLeft="@dimen/lay_14"
+    android:paddingRight="@dimen/lay_10"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.AttentionActivity">
+
+    <ImageView
+        android:id="@+id/mymsg_imgiv"
+        android:layout_width="@dimen/lay_48"
+        android:layout_height="@dimen/lay_48"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/msgicon"
+        />
+    <ImageView
+        android:id="@+id/mymsg_noreadiv"
+        android:layout_width="@dimen/lay_10"
+        android:layout_height="@dimen/lay_10"
+        android:layout_toRightOf="@+id/mymsg_imgiv"
+        android:layout_below="@+id/mymsg_imgiv"
+        android:layout_marginLeft="-12dp"
+        android:layout_marginTop="-12dp"
+        android:src="@mipmap/littleicon"
+        android:visibility="visible"
+        />
+        <TextView
+            android:id="@+id/mymsg_timetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/word_six_a"
+            android:textSize="@dimen/font_11"
+            />
+        <!--  名称 -->
+        <TextView
+            android:id="@+id/mymsg_nametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mymsg_imgiv"
+            android:layout_marginLeft="@dimen/lay_8"
+            android:layout_toLeftOf="@+id/mymsg_timetv"
+            android:layout_marginRight="@dimen/lay_5"
+            android:textColor="@color/word_six_two"
+            android:textSize="@dimen/font_14"
+            />
+        <!--  内容简介 -->
+        <TextView
+            android:id="@+id/mymsg_contenttv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mymsg_imgiv"
+            android:layout_marginLeft="@dimen/lay_8"
+            android:textSize="@dimen/font_13"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/word_six_eight"
+            android:maxLines="1"
+            android:ellipsize="end"
+            />
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/lay_10"
+    android:background="@color/white"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.VideosActivity">
+
+    <!-- 图片 -->
+    <RelativeLayout
+        android:id="@+id/searchfilmitem_imgrela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/searchfilmitem_imgiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/word_six_d"
+            android:scaleType="centerCrop"
+            />
+        <ImageView
+            android:id="@+id/searchfilmitem_playiv"
+            android:layout_width="@dimen/lay_40"
+            android:layout_height="@dimen/lay_40"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/whiteplaybtn1"/>
+    </RelativeLayout>
+
+    <!-- 名称 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/searchfilmitem_imgrela"
+        android:layout_marginLeft="@dimen/lay_10"
+        >
+        <TextView
+            android:id="@+id/searchfilmitem_nametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/word_six_one"
+            />
+        <TextView
+            android:id="@+id/searchfilmitem_timetv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/searchfilmitem_nametv"
+            android:layout_marginTop="7dp"
+            android:textColor="@color/word_three_nine"
+            android:textSize="@dimen/font_13"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

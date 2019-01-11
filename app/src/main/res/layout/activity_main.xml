@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/main_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <!-- 隐藏的TabWidget,visibility="gone" -->
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+        <!-- 标签内容 -->
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <RelativeLayout
+            android:id="@+id/first_buttomrela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent" >
+
+            <LinearLayout
+                android:id="@+id/first_tabsrela"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white" >
+                <!-- 视频按钮 -->
+
+                <RelativeLayout
+                    android:id="@+id/first_videosrela"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        >
+                        <Button
+                            android:id="@+id/first_videosbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:background="@mipmap/home"
+                            />
+                        <TextView
+                            android:id="@+id/first_videostv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/first_videosbtn"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/redff"
+                            android:textSize="@dimen/font_11"
+                            android:text="首页"
+                            />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <!--商城按钮-->
+                <RelativeLayout
+                    android:id="@+id/mall_videosrela"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white" >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        >
+                        <Button
+                            android:id="@+id/mall_videosbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:background="@mipmap/mall_nor"
+                            />
+                        <TextView
+                            android:id="@+id/mall_videostv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/mall_videosbtn"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/word_three_nine"
+                            android:textSize="@dimen/font_11"
+                            android:text="商城"
+                            />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <!-- 本地 -->
+                <RelativeLayout
+                    android:id="@+id/first_picsrela"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_centerHorizontal="true"
+                    android:layout_weight="1"
+                    android:background="@color/white" >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        >
+                        <Button
+                            android:id="@+id/first_picsbtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:background="@mipmap/local_nor"
+                            />
+                        <TextView
+                            android:id="@+id/first_picstv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/first_picsbtn"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/word_three_nine"
+                            android:textSize="@dimen/font_11"
+                            android:text="本地"
+                            />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <!-- 我的按钮 -->
+                <RelativeLayout
+                    android:id="@+id/first_minerela"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white" >
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        >
+                        <Button
+                            android:id="@+id/first_minebtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:background="@mipmap/mine_nor"
+                            />
+                        <TextView
+                            android:id="@+id/first_minetv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/first_minebtn"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/word_three_nine"
+                            android:textSize="@dimen/font_11"
+                            android:text="我的"
+                            />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 分割线 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_above="@+id/first_tabsrela"
+                android:background="@color/threee_threec" />
+
+
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/splash_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/splash_guide" />
+
+        <ImageView
+            android:id="@+id/intent_calibration_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="150dp"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/intent_calibration" />
+
+        <ImageView
+            android:id="@+id/splash_skip_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="20dp"
+            android:src="@mipmap/splash_skip" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/splash_advertising_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/splash_advertising_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/splash_background"
+            android:visibility="gone"/>
+        <VideoView
+            android:id="@+id/advertising_video"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="150dp"
+            android:layout_alignParentBottom="true"
+            android:src="@mipmap/intent_calibration"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/time_long_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/time_long_bg"
+            android:textColor="@color/white"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+</TabHost>

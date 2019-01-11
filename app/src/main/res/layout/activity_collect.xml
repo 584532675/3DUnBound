@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/word_f_345"
+        >
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/collect_swiperefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/lay_10"
+            android:layout_centerHorizontal="true"
+            >
+            <ListView
+                android:id="@+id/collect_lv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:divider="@color/word_f_5"
+                android:dividerHeight="@dimen/lay_1"
+                />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <!-- 2个按钮 -->
+        <LinearLayout
+            android:id="@+id/collect_btnslinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+            <Button
+                android:id="@+id/collect_allselectbtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/word_six_e"
+                android:textColor="@drawable/black2gray_textcolor"
+                android:text="@string/Word_allselect"
+                />
+            <TextView
+                android:layout_width="@dimen/lay_1px"
+                android:layout_height="match_parent"
+                android:background="@color/word_six_a"
+                />
+            <Button
+                android:id="@+id/collect_deletebtn"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/word_six_e"
+                android:textColor="@drawable/redf72black_textcolor"
+                android:text="@string/Word_delete"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

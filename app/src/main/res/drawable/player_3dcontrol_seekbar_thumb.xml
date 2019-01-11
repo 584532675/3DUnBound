@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:width="37.5dp" android:height="37.5dp" android:drawable="@drawable/seekbar_thumb_layer1" android:state_enabled="false"/>
+    <item android:width="37.5dp" android:height="37.5dp" android:drawable="@drawable/seekbar_thumb_layer2" android:state_pressed="true"/>
+    <item android:width="37.5dp" android:height="37.5dp" android:drawable="@drawable/seekbar_thumb_layer1" android:state_selected="true"/>
+    <item android:width="37.5dp" android:height="37.5dp" android:drawable="@drawable/seekbar_thumb_layer1"/>
+</selector>

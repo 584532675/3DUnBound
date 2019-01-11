@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?><!--backcolor threedd_titlecolor-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="horizontal">
+
+    <!-- 历史记录按钮 -->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/videos_historybtn"
+            android:layout_width="@dimen/lay_25"
+            android:layout_height="@dimen/lay_25"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/mainlogoiv" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:background="@android:color/transparent" />
+    <!-- 推荐 -->
+    <ImageView
+        android:id="@+id/logo_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/logo" />
+    <!-- 3D东东 -->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/videos_threeddtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/word_threeDD"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_15" />
+
+            <TextView
+                android:id="@+id/videos_threeddtagtv"
+                android:layout_width="43dp"
+                android:layout_height="@dimen/lay_3"
+                android:layout_below="@+id/videos_threeddtv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/transparent" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!-- 影视 -->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/videos_filmtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/word_threeDD"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_15" />
+
+            <TextView
+                android:id="@+id/videos_filmtagtv"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lay_2"
+                android:layout_alignParentBottom="true"
+                android:background="@color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <!-- 本地 -->
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        android:visibility="gone">
+
+        <RelativeLayout
+            android:layout_width="@dimen/lay_36"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true">
+
+            <TextView
+                android:id="@+id/videos_originaltv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="@string/Word_Local"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_15" />
+
+            <TextView
+                android:id="@+id/videos_originaltagtv"
+                android:layout_width="15dp"
+                android:layout_height="@dimen/lay_3"
+                android:layout_below="@+id/videos_originaltv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="3dp"
+                android:background="@android:color/transparent" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:background="@android:color/transparent" />
+
+
+    <!-- 搜索按钮 -->
+    <Button
+        android:id="@+id/videos_seekbtn"
+        android:layout_width="@dimen/lay_20"
+        android:layout_height="@dimen/lay_20"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@mipmap/mainsearchiv" />
+</RelativeLayout>
+

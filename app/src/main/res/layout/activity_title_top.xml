@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_gravity="center_vertical" >
+
+    <!-- 标题栏 -->
+    <RelativeLayout
+        android:id="@+id/local_titlerela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/lay_12"
+        android:paddingRight="@dimen/lay_12"
+        android:background="@color/white">
+
+        <Button
+            android:id="@+id/scan_back"
+            android:layout_width="@dimen/lay_32"
+            android:layout_height="@dimen/lay_32"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/black_back" />
+
+        <TextView
+            android:id="@+id/scan_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="激活"
+            android:textColor="@color/word_six_four"
+            android:textSize="@dimen/font_17" />
+
+        <Button
+            android:id="@+id/scan_add_picture"
+            android:layout_width="@dimen/lay_32"
+            android:layout_height="@dimen/lay_32"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

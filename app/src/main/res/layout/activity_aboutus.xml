@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/aboutus_rela1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:paddingBottom="20dp">
+
+        <RelativeLayout
+            android:id="@+id/aboutus_qrimgrela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@mipmap/aboutusbg">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/aboutus_qrimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@mipmap/aboutusqrcode" />
+                <!-- 扫描二维码 -->
+                <TextView
+                    android:id="@+id/aboutus_scanqrtv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aboutus_qrimg"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/lay_20"
+                    android:text="@string/word_scanqr"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_16" />
+
+                <TextView
+                    android:id="@+id/aboutus_addparttv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/aboutus_scanqrtv"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/lay_10"
+                    android:text="@string/word_addpart"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/font_16" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/aboutus_qrimgrela"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/about_info_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                android:text="如需进一步了解" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_below="@id/about_info_next"
+                android:layout_centerHorizontal="true"
+                android:text="请发送邮件至:info@eyes3d.com.cn" />
+        </RelativeLayout>
+
+
+        <!-- 底部 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/aboutus_appversiontv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:textColor="@color/black"
+                android:text="@string/word_versioncode"
+                android:textSize="@dimen/font_16" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

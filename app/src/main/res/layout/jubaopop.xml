@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingTop="@dimen/lay_10"
+    android:paddingBottom="@dimen/lay_25"
+    android:paddingLeft="@dimen/lay_10"
+    android:paddingRight="@dimen/lay_10"
+    >
+    <ImageView
+        android:id="@+id/jubaopop_closeiv"
+        android:layout_width="@dimen/lay_28"
+        android:layout_height="@dimen/lay_28"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/closeicon"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/jubaopop_closeiv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <!-- 性别选择 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            >
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="@dimen/lay_1"
+                android:layout_centerVertical="true"
+                android:background="@color/word_six_four"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:padding="@dimen/lay_8"
+                android:background="@color/white"
+                android:text="@string/Word_tousuvideo"
+                android:textColor="@color/word_six_four"
+                />
+        </RelativeLayout>
+
+        <!-- 按钮 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/lay_15"
+            android:layout_gravity="center_horizontal"
+            >
+            <RelativeLayout
+                android:id="@+id/jubaopop_jubaorela"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/jubaopop_jubaoiv"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/tousubtn"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

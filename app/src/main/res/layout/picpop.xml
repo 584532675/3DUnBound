@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/lay_10"
+    android:background="@drawable/yuanjiaowhite_border"
+    >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="vertical"
+                    android:paddingTop="@dimen/lay_50"
+                    android:paddingBottom="@dimen/lay_10"
+                    android:paddingLeft="@dimen/lay_44"
+                    android:paddingRight="@dimen/lay_44"
+                    >
+                        <Button
+                            android:id="@+id/picpop_paizhaobtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/lay_35"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/buttonbtn_selector"
+                            android:text="@string/Word_paizhao"
+                            android:textColor="@color/white"
+                            />
+                        <Button
+                            android:id="@+id/picpop_xiangcebtn"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/lay_35"
+                            android:layout_marginTop="@dimen/lay_20"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@drawable/buttonbtn_selector"
+                            android:text="@string/Word_xiangce"
+                            android:textColor="@color/white"
+                            />
+                </LinearLayout>
+        <ImageView
+            android:id="@+id/picpop_closeiv"
+            android:layout_width="@dimen/lay_28"
+            android:layout_height="@dimen/lay_28"
+            android:layout_alignParentRight="true"
+            android:src="@mipmap/closeicon"
+            />
+
+</RelativeLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingTop="@dimen/lay_10"
+    android:paddingBottom="@dimen/lay_10"
+    android:paddingLeft="@dimen/lay_10"
+    android:paddingRight="@dimen/lay_10"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.PicsActivity">
+
+
+    <TextView
+        android:layout_alignParentRight="true"
+        android:id="@+id/editor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="编辑"
+        />
+
+
+
+    <!-- 作者头像，名称，播放时间区域 -->
+    <RelativeLayout
+        android:id="@+id/historyitem_headviewrela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editor"
+        >
+        <ImageView
+            android:id="@+id/historyitem_headviewiv"
+            android:layout_width="@dimen/lay_44"
+            android:layout_height="@dimen/lay_44"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/head_noimg"
+            android:layout_marginLeft="@dimen/lay_10"
+            />
+        <TextView
+            android:singleLine="true"
+            android:id="@+id/historyitem_authornametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/historyitem_headviewiv"
+            android:layout_marginLeft="@dimen/lay_10"
+            android:textSize="@dimen/font_13"
+            android:textColor="@color/word_six_six"
+            android:text="name"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+
+        android:id="@+id/historyitem_playtimetv"
+        android:layout_below="@+id/historyitem_headviewrela"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/word_six_a"
+        android:textSize="@dimen/font_12"
+        android:text="today"
+        />
+
+
+    <!-- 视频图片，名称区域 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/historyitem_playtimetv"
+        >
+        <CheckBox
+            android:id="@+id/historyitem_cb"
+            android:layout_width="@dimen/lay_25"
+            android:layout_height="@dimen/lay_25"
+            android:layout_centerVertical="true"
+            android:background="@drawable/checkbox_selector"
+            android:button="@null"
+            android:visibility="gone"
+            />
+
+        <!-- 头像区域 -->
+        <RelativeLayout
+            android:id="@+id/historyitem_imgrela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/historyitem_cb"
+            android:layout_marginLeft="@dimen/lay_10"
+            android:layout_centerVertical="true"
+            >
+            <ImageView
+                android:id="@+id/historyitem_imgiv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/defaultloading_fourthreeimg"
+                android:background="@color/word_six_e"
+                />
+            <ImageView
+                android:id="@+id/historyitem_playiv"
+                android:layout_width="@dimen/lay_40"
+                android:layout_height="@dimen/lay_40"
+                android:layout_centerInParent="true"
+                android:src="@mipmap/whiteplaybtn1"
+                android:visibility="visible"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/historyitem_filmnametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/historyitem_imgrela"
+            android:layout_marginLeft="@dimen/lay_10"
+            android:textColor="@color/word_six_four"
+            android:textSize="@dimen/font_14"
+            />
+        <TextView
+            android:id="@+id/historyitem_playpositiontv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/historyitem_imgrela"
+            android:layout_marginLeft="@dimen/lay_10"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/word_six_a"
+            android:textSize="@dimen/font_12"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

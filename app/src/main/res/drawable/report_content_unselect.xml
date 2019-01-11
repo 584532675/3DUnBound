@@ -1,0 +1,11 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+              corners:圆角，radius-圆角半径
+              solid：背景填充颜色
+              -->
+    <stroke
+        android:width="1px"
+        android:color="@color/black" />
+    <corners android:radius="4dp" />
+    <solid android:color="@color/report_layout_bg" />
+</shape>

@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="image_movie_width">170dp</dimen>
+    <dimen name="fashion_show_width">160dp</dimen>
+    <dimen name="zan_count_left">38dp</dimen>
+    <dimen name="grid_expected_size">120dp</dimen>
+    <dimen name="youzan_bottom">45dp</dimen>
+</resources>

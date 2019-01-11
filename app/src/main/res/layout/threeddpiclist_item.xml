@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.PicsActivity"
+    >
+
+    <RelativeLayout
+        android:id="@+id/threeddallfilmitem_imgrela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/word_six_d"
+        >
+        <ImageView
+            android:id="@+id/threeddallfilmitem_imgiv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:background="@color/word_six_d"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/threeddallfilmitem_imgrela"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/lay_10"
+        >
+        <TextView
+            android:id="@+id/threeddallfilmitem_fimanametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/word_six_four"
+            android:textSize="13sp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

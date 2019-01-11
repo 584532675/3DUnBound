@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/statues_bar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#e95855" />
+
+    <com.youzan.androidsdk.basic.YouzanBrowser
+        android:id="@+id/youzan_yb"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/statues_bar"
+        android:layout_marginBottom="@dimen/youzan_bottom"></com.youzan.androidsdk.basic.YouzanBrowser>
+
+    <ImageView
+        android:id="@+id/back_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/black_back" />
+
+</RelativeLayout>

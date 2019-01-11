@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="half_transparent">#66000000</color>
+    <color name="half_transparent2">#33000000</color>
+    <color name="half_transparent3">#00000000</color>
+    <color name="half_transparent4">#21000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="orangef5">#f59942</color>
+    <color name="orangeff">#ff873f</color>
+    <color name="orangefa">#fa6233</color>
+
+    <color name="orangefd">#ffd33b</color>
+    <color name="orange700">#f78038</color>
+    <color name="redfd">#fd3b3b</color>
+    <color name="redf7">#f76e38</color>
+    <color name="redff">#ff793f</color>
+    <color name="redee">#ee814e</color>
+    <color name="blue300">#3495f0</color>
+    <color name="blued6">#d6eafc</color>
+    <color name="titleblue">#3c5cca</color>
+    <color name="white">#fefefe</color>
+    <color name="black">#000000</color>
+    <color name="word_six_one">#111111</color>
+    <color name="word_six_two">#222222</color>
+    <color name="word_six_four">#444444</color>
+    <color name="word_three_four">#4a4a4a</color>
+    <color name="word_six_six">#666666</color>
+    <color name="word_six_seven">#777777</color>
+    <color name="word_six_eight">#888888</color>
+    <color name="word_six_nine">#999999</color>
+    <color name="word_three_nine">#9e9e9e</color>
+    <color name="word_six_a">#aaaaaa</color>
+    <color name="threea_three2">#a2a2a2</color>
+    <color name="word_six_b">#bbbbbb</color>
+    <color name="word_six_c">#cccccc</color>
+    <color name="word_six_d">#dddddd</color>
+    <color name="word_six_e">#eeeeee</color>
+    <color name="word_da">#daedfe</color>
+    <color name="threee_threec">#ececec</color>
+    <color name="threec_threenine">#c9c9c9</color>
+    <color name="word_f_2">#f2f2f2</color>
+    <color name="word_f_1">#f1f1f1</color>
+    <color name="word_f_5">#f5f5f5</color>
+    <color name="word_f_7">#f7f7f7</color>
+    <color name="word_f_345">#f3f4f5</color>
+    <color name="word_e_5">#e5e5e5</color>
+    <color name="word_e_7">#e7e7e7</color>
+
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="result_view">#b0000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="home_status_bar">#ffffff</color>
+    <color name="theme_color">#e95855</color>
+    <color name="short_send_color">#EA5856</color>
+    <color name="report_layout_bg">#eeeeef</color>
+    <color name="time_long_bg_color">#60000000</color>
+</resources>

@@ -1,0 +1,711 @@
+<resources xmlns:tools="http://schemas.Android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="rule_password">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`¬!"£$%^*()~=#{}[];':,./?/*-_+&#060;&#062;&#064;&#038;</string>
+    <string name="app_name">3D无界</string>
+    <string name="Word_data_Empty">没有任何数据</string>
+    <string name="Word_check_net">请检查网络</string>
+    <string name="Word_Recommend">推荐</string>
+    <string name="Word_Film">影视</string>
+    <string name="Word_Original">原创</string>
+    <string name="Word_Local">本地</string>
+    <string name="Word_myupload">我的上传</string>
+    <string name="Word_try">试看</string>
+    <string name="Word_history">播放历史</string>
+    <string name="Word_manager">管理</string>
+    <string name="Word_empty">快去找些喜欢的视频吧</string>
+    <string name="Word_shop">商城</string>
+
+
+    <string name="cancle_attention">取消关注</string>
+    <string name="loading">正在加载</string>
+    <string name="upload">上传</string>
+    <string name="cancleupload">取消上传</string>
+    <string name="uploading">正在上传</string>
+    <string name="uploaded">上传成功</string>
+    <string name="uploaderror">停止上传</string>
+    <string name="videonameedt">请输入视频名称</string>
+    <string name="videonpicedt">请选择视频截图</string>
+    <string name="videointroduceedt">请输入视频描述</string>
+    <string name="picnameedt">请输入图片名称</string>
+    <string name="picintroduceedt">请输入图片描述</string>
+
+    <string name="clicklogin">登录/注册</string>
+    <string name="Word_Collect">收藏</string>
+    <string name="Word_Attention">关注</string>
+    <string name="Word_Attentioned">已关注</string>
+    <string name="Word_Download">下载</string>
+    <string name="Word_Mymsg">我的消息</string>
+    <string name="Word_Loginpart">加入组织</string>
+    <string name="Word_Set">设置</string>
+    <string name="Word_enterfeedback">请输入意见反馈</string>
+    <string name="Word_entercontracts">请输入联系方式</string>
+
+    <string name="Word_Introduce">使用说明</string>
+    <string name="Word_stepone">步骤一</string>
+    <string name="Word_steptwo">步骤二</string>
+    <string name="Word_steponeinfo">"按照使用说明书安装激活\"幻影3D双面侠\",激活成功后,如图,点击进入人眼追踪校准"</string>
+    <string name="Word_steptwoinfo">"进入人眼追踪校准,点击加号或者减号,直到看不到狮子重影"</string>
+
+    <string name="feedback_adviceedt">请输入您的宝贵意见(字数不超过500字)</string>
+    <string name="tv_feedback_contact">联系方式</string>
+    <string name="et_feedback_contact">QQ/微信号,手机号(必填)</string>
+    <string name="upload_picture">上传照片(最多9张)</string>
+    <string name="post_feedback">提交反馈</string>
+    <string name="sure_btn">确定</string>
+    <string name="cancle_btn">取消</string>
+    <string name="canclezan_success">取消点赞</string>
+    <string name="canclezan_error">取消失败</string>
+
+    <string name="Word_active">激活</string>
+    <string name="Word_eyeball">眼球追踪校准</string>
+    <string name="Word_introduction">使用说明</string>
+    <string name="Word_safe">账户安全与问题</string>
+    <string name="Word_changepsw">修改密码</string>
+    <string name="Word_changephone">更换绑定手机号</string>
+    <string name="Word_setpsw">设置密码</string>
+    <string name="Word_oldpsw">旧密码</string>
+    <string name="Word_newpsw">新密码</string>
+    <string name="Word_surepsw">确认密码</string>
+    <string name="Word_feedback">意见反馈</string>
+    <string name="Word_banquan">版权说明</string>
+    <string name="Word_clearcache">清除缓存</string>
+    <string name="Word_zerocache">0M</string>
+    <string name="Word_clearcacheok">清除缓存成功</string>
+    <string name="Word_phonenum">手机号</string>
+    <string name="Word_oldphonenum">当前绑定手机号</string>
+
+    <string name="Word_Personinfo">个人信息</string>
+    <string name="Word_save">保存</string>
+    <string name="Word_headview">头像</string>
+    <string name="Word_nickname">昵称</string>
+    <string name="Word_nicknamehint">给自己取个牛逼哄哄的昵称吧</string>
+    <string name="Word_emoji">暂不支持Emoji表情</string>
+    <string name="Word_sex">性别</string>
+    <string name="Word_nan">男</string>
+    <string name="Word_nv">女</string>
+    <string name="Word_signature">个性签名</string>
+    <string name="Word_signaturehint">给自己写个超赞的个性签名吧</string>
+
+    <string name="Word_login">登录</string>
+    <string name="Word_loginname" >账号</string>
+    <string name="Word_loginnamehint" >请输入手机号码</string>
+    <string name="Word_mobilelengtherror">请输入正确的手机号码</string>
+    <string name="Word_psw">密码</string>
+    <string name="Word_pswhint">请输入密码</string>
+    <string name="Word_psw2hint">请确认密码</string>
+    <string name="Word_twopswdiff">密码和确认密码不一致</string>
+    <string name="Word_mobileregister">手机快速注册</string>
+    <string name="Word_forgetpsw" >忘记密码</string>
+    <string name="Word_weixin">微信</string>
+    <string name="Word_qq">QQ</string>
+    <string name="Word_weibo">微博</string>
+    <string name="Word_disanfang" >OR</string>
+    <string name="set_player">切换播放器</string>
+    <string name="Word_register">注册</string>
+    <string name="Word_registerfail">注册失败</string>
+    <string name="Word_registersuccess">注册成功,请登录</string>
+    <string name="Word_loginfail">登录失败</string>
+    <string name="Word_loadfail">加载失败</string>
+    <string name="Word_loginsuccess">登录成功</string>
+    <string name="Word_layoutsuccess">注销成功</string>
+    <string name="Word_layoutfail">注销失败</string>
+    <string name="Word_logining">登录中，请稍候</string>
+    <string name="Word_autologining">自动登录中，请稍候</string>
+    <string name="Word_registercodeerror">验证码错误</string>
+    <string name="Word_codesuccess">操作成功，请注意查收短信</string>
+    <string name="Word_noregister">该手机号尚未注册，请先注册</string>
+    <string name="Word_registerrepeat">账号已被注册</string>
+    <string name="Word_verification">验证码</string>
+    <string name="Word_inputverification" >请输入验证码</string>
+    <string name="Word_verificationsize">验证码错误</string>
+    <string name="Word_getverification" >获取验证码</string>
+    <string name="Word_registerpswhint">请输入密码(6-15位)</string>
+    <string name="Word_repswhint">请确认密码(6-15位)</string>
+    <string name="Word_newpswhint">输入新密码(6-15位)</string>
+    <string name="Word_renewpswhint">请确认密码(6-15位)</string>
+    <string name="Word_oldpswhint">输入旧密码</string>
+    <string name="Word_enternewpsw">输入新密码</string>
+    <string name="Word_pswlength">密码长度不能小于6位</string>
+    <string name="Word_enternewpsw2">确认新密码</string>
+    <string name="Word_newpswdiffold">新密码不能和旧密码相同</string>
+
+    <string name="Word_findpsw">找回密码</string>
+    <string name="Word_sureown">验证身份</string>
+    <string name="Word_tonewphone">绑定新手机</string>
+    <string name="Word_commit">提交</string>
+    <string name="Word_commitsuccess">提交成功</string>
+    <string name="Word_forgetpswsuccess">密码修改成功,请用新密码登录</string>
+    <string name="Word_commitfail">提交失败</string>
+    <string name="Word_codefail">验证码错误</string>
+    <string name="Word_updatepswfail">旧密码错误</string>
+    <string name="Word_next">下一步(1/2)</string>
+    <string name="Word_next2">下一步(2/2)</string>
+    <string name="Word_nexttv">下一步</string>
+
+    <string name="Word_picinfo">图片详情</string>
+    <string name="Word_preview">图片预览</string>
+    <string name="Word_upload">上传图片</string>
+    <string name="Word_zuopnum" >作品:</string>
+    <string name="Word_fansnum">粉丝:</string>
+    <string name="Word_peoplediscuss">短评······(全部%s条)</string>
+    <string name="more_comment">> 更多短评%s条</string>
+    <string name="Word_nodiscuss">暂无评论</string>
+    <string name="Word_discuss">评论</string>
+    <string name="Word_discussdialoghint">请输入您的评论</string>
+    <string name="Word_discusssuccess">评论发表成功</string>
+    <string name="Word_discusserror">评论发表失败</string>
+
+    <string name="Word_playernum">次</string>
+    <string name="Word_timelong">00\'00\"</string>
+    <string name="Word_discusshint">期待你的神评</string>
+    <string name="not_have_more">没有更多内容了</string>
+    <string name="internet_error">网络访问超时,请检查网络</string>
+    <string name="checkbet_word">请检查网络连接</string>
+    <string name="havenodata">当前数据为空！</string>
+    <string name="updateinfosuccess">更新成功</string>
+    <string name="updateinfofail">更新失败</string>
+    <string name="Word_searchhint">请输入关键字</string>
+    <string name="Word_loading">加载中,请稍候</string>
+    <string name="Word_searching">正在搜索,请稍候</string>
+    <string name="Word_collectsuccess" >已收藏</string>
+    <string name="Word_deletecollectsuccess">取消收藏</string>
+    <string name="Word_collecterror" >收藏失败</string>
+    <string name="Word_followsuccess" >已关注</string>
+    <string name="Word_followerror" >关注失败</string>
+    <string name="Word_likesuccess" >点赞成功</string>
+    <string name="Word_likeerror" >点赞失败</string>
+
+    <string name="Word_worksuccess">操作成功</string>
+    <string name="Word_workerror" >操作失败</string>
+    <string name="Word_layout">退出登录</string>
+    <string name="Word_videoupload">视频上传</string>
+    <string name="Word_picupload">图片上传</string>
+
+    <string name="Word_addparttitle" >南爵组织,最新视频在等你</string>
+    <string name="Word_addparttitle2" >微信公众号:2635625</string>
+    <string name="Word_addnow" >立即加入</string>
+    <string name="Word_addpartcontenttitle">加入组织福利</string>
+    <string name="Word_addpartcontent1" >1.不定时开展3D行业大牛交流会</string>
+    <string name="Word_addpartcontent2" >2.南爵红包不定时发放</string>
+    <string name="Word_mymsg">消息中心</string>
+
+    <string name="Word_piclayout">图片区域</string>
+    <string name="Word_addpic" >添加图片</string>
+    <string name="Word_uploadselect">我已阅读并接受</string>
+    <string name="Word_registertv1">点击注册按钮即表示同意</string>
+    <string name="Word_3dagree">《用户上传协议》</string>
+    <string name="Word_3dpeopleagree">《南爵3D视界用户协议》</string>
+    <string name="Word_jianjie" >简介:</string>
+    <string name="Word_biaoti">标题:</string>
+    <string name="Word_miaoshu">描述:</string>
+    <string name="Word_jianjiehint">为你的作品取个响亮的名字吧</string>
+    <string name="Word_miaoshuhint">亮出你的作品特色吧</string>
+
+    <string name="Word_paizhao">拍照</string>
+    <string name="Word_xiangce">相册</string>
+    <string name="Word_finish">完成</string>
+    <string name="Word_nosd">内存卡不存在</string>
+    <string name="Word_picnomore">最多上传7张图片</string>
+    <string name="downLoad_notification_ticker">正在下载新版本</string>
+    <string name="update_title">更新提示</string>
+    <string name="update_content">发现新版本,是否为您下载更新?</string>
+
+    <string name="Word_sexselect">性别选择</string>
+    <string name="Word_tousuvideo">投诉视频内容</string>
+    <string name="Word_picselect">图片选择</string>
+    <string name="Word_allselect">全选</string>
+    <string name="Word_allunselect">全不选</string>
+    <string name="Word_selectdelete">请选择要删除的历史记录</string>
+    <string name="Word_askdelete">确定删除选中的历史记录?</string>
+    <string name="Word_delete">删除</string>
+    <string name="Word_close">关闭</string>
+    <string name="Word_noticetitle">提示</string>
+    <string name="Word_contenttitle1">《南爵3D视界用户协议》</string>
+    <string name="Word_noticecontent">当前应用缺少必要权限,请点击 \"设置\"—\"权限管理\" 打开 \"定位\" 、 \"手机读写存储\" 、 \"相机\" 和 \"摄像头\" 权限,最后点击两次后退按钮，即可返回。</string>
+    <string name="Word_noticewrite">当前应用缺少必要权限,请点击 \"设置\"—\"权限管理\" 打开 \"手机读写存储\" 权限,最后点击两次后退按钮，即可返回。</string>
+    <string name="Word_noticerecord">当前应用缺少必要权限,请点击 \"设置\"—\"权限管理\" 打开 \"相机\" 和 \"摄像头\" 权限,最后点击两次后退按钮，即可返回。</string>
+    <string name="Word_noticecamera">当前应用缺少必要权限,请点击 \"设置\"—\"权限管理\" 打开 \"相机\" 权限,最后点击两次后退按钮，即可返回。</string>
+    <string name="Word_noticecontent2">请点击\"设置\"—\"权限管理\"打开所需权限。</string>
+    <string name="Word_noticecontent3">最后点击两次后退按钮，即可返回。</string>
+    <string name="Word_deleterecode">确定删除所拍摄视频?</string>
+    <string name="Word_deletetitle">确定删除选中条目?</string>
+    <string name="Word_deletedownload">已下载的记录会同时删除资源文件,确定删除?</string>
+    <string name="Word_deleteloading">该视频正在下载,确定删除该项?</string>
+    <string name="Word_notloaded">该视频还未下载完成</string>
+    <string name="Word_islayout">确定退出登录?</string>
+    <string name="Word_gprdownload">当前网络连接是数据流量，确定继续操作?</string>
+
+    <string name="Word_uploadsuccesstv1">视频正在上传</string>
+    <string name="Word_uploadsuccesstv">文件上传完成</string>
+    <string name="Word_uploadsuccesstv2">感谢您对我们工作的支持</string>
+    <string name="Word_uploadwait">正在上传,请稍候</string>
+    <string name="Word_downloadhave">下载列表已存在该资源</string>
+    <string name="Word_adddownload">开始下载</string>
+    <string name="Word_pause">已暂停</string>
+    <string name="Word_pausedown">暂停下载</string>
+    <string name="Word_finishdownload">已完成</string>
+    <string name="Word_havedownload">文件已下载</string>
+    <string name="Word_downloading">下载中</string>
+    <string name="Word_downloadingwait">正在下载,请稍候</string>
+    <string name="Word_pending">等待中</string>
+    <string name="Word_downloaderror">下载错误</string>
+    <string name="netstate_gpr">当前连接的数据流量,请切换WIFI下载</string>
+    <string name="onemoreexit">再按一次后退键退出</string>
+
+    <string name="activebefore">观看3D影片前需要先去完成效果校准</string>
+    <string name="setafter">稍后设置</string>
+    <string name="tonow">现在就去</string>
+    <string name="only2d">观看3D影片前需要先去完成效果校准</string>
+    <string name="scanactive">扫描3D手机壳上二维码激活</string>
+    <string name="nowactive">马上校准</string>
+
+    <string name="addpartnotice">扫码二维码即可加入3D交流群</string>
+    <string name="addpartname">#南爵3D视界#</string>
+
+
+    <string name="allow_open_cramrapermisson">"不能进入激活页面，请到设置中打开摄像头权限并重启应用"</string>
+    <string name="allow_open_eyetrack_cramrapermisson">"不能进入人眼追踪校准页面，请到设置中打开摄像头权限并重启应用"</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+
+    <string name="word_copyright">版权说明</string>
+    <string name="word_threeDD">3D东东专区</string>
+    <string name="word_threeDDtv">3D东东</string>
+    <string name="word_threeDDinfo">海量3D内容资源,精彩不容错过</string>
+
+    <string name="word_threeDDcinema">3D影院</string>
+    <string name="word_threeDDshort">酷炫影片</string>
+    <string name="word_threeDDall">全部影片</string>
+    <string name="word_more">更多</string>
+    <string name="word_voice">音量:</string>
+    <string name="word_light">亮度:</string>
+
+    <string name="word_freerela">免费专区</string>
+    <string name="word_notfreerela">收费专区</string>
+
+    <string name="word_filmtype">类型：</string>
+    <string name="word_director">导演：</string>
+    <string name="word_performer">主演：</string>
+    <string name="word_releaseTime">上映时间：</string>
+    <string name="word_haveno">无</string>
+
+
+    <string name="word_film">电影</string>
+    <string name="word_donghua">动画</string>
+    <string name="word_zongyi">综艺</string>
+    <string name="word_pianhua">片花</string>
+    <string name="word_fengjing">风景</string>
+    <string name="word_meinv">美女</string>
+    <string name="word_youxi">游戏</string>
+    <string name="word_qita">其他</string>
+    <string name="word_todayhot">今日热播</string>
+    <string name="word_newest">精选影片</string>
+    <!--rjz add -->
+    <string name="word_newest_video">随便看看</string>
+    <string name="word_free_newest">免费影片</string>
+    <string name="word_free_youtube">YouTube影片</string>
+    <string name="word_vip_newest">vip影片</string>
+
+
+    <!--新版本标签对应关系-->
+    <string name="word_movie">大电影</string>
+    <string name="word_new_studio">新片场</string>
+    <string name="word_short_movie">短视频</string>
+    <string name="word_fashion_show">时尚秀</string>
+    <string name="word_recommend_video">推荐</string>
+    <!--rja end-->
+    <string name="word_other">换一批</string>
+    <string name="word_myattention">我的关注</string>
+    <string name="word_mycollect">我的收藏</string>
+    <string name="word_myhistory">历史记录</string>
+    <string name="word_mydown">我的缓存</string>
+    <string name="word_jiaozhun">3D校准效果</string>
+    <string name="word_jiaozhun_video">3D校准效果视频</string>
+    <string name="word_myshop">官方商城</string>
+    <string name="word_sharetofriend">分享给朋友</string>
+    <string name="word_abousus">关于我们</string>
+    <string name="word_allfilm">全部电影</string>
+    <string name="word_fen">分</string>
+    <string name="word_year">年</string>
+    <string name="word_logintitle">账号密码登录</string>
+    <string name="word_forgettitle">请先验证手机号码</string>
+    <string name="word_registertitle">请输入您的手机号码</string>
+    <string name="word_register2nickname">请输入您的昵称</string>
+    <string name="word_register2title">完善个人信息</string>
+    <string name="word_loginnumbefore">+86</string>
+    <string name="forget2title">请输入新密码</string>
+    <string name="word_scanqr">更多信息关注「3D无界」</string>
+    <string name="word_addpart">微信公众号</string>
+    <string name="word_versioncode">版本V1.0.0</string>
+    <string name="word_forgetpswerror">密码修改失败</string>
+    <string name="word_infomation">简介：</string>
+    <string name="word_viewover">已看完</string>
+    <string name="word_viewpositiontv">上次观看到</string>
+    <string name="word_firstpagetv">首页</string>
+    <string name="word_activetip">已经激活成功，请现在去完成效果校准</string>
+    <string name="word_usedspace">已用空间：</string>
+    <string name="word_spaceavailable">可用空间：</string>
+    <string name="searchhavenodata">当前结果为空！</string>
+    <string name="word_lastplay">上次播放到</string>
+
+
+    <string name="upload_title">用户上传协议</string>
+    <string name="upload_content">
+1、上传视频不含有反动、色情、低级趣味、血腥暴力的内容，严格遵守中华人民共和国宪法及相关规定；
+\n 2、禁止上传花屏、质量太差、没有声音、画面、时间太少、无意义的视频内容。
+\n 3、使用者上传数字视频信息必须确保自己为上传的数字视频信息的著作权人，或者已经获得了相关著作权人复制、信息网络传播、修改、再许可其作品的授权和放弃报酬请求权的承诺，且其上传的作品不违反法律和行政法规的规定，同时也不侵犯他人的肖像权、名誉权和知识产权等任何合法权益。上传数字视频信息的使用者保证独自处理和承担由其上传的数字视频信息所引起的争议和法律责任。
+\n 4、本平台不承诺永久保存视频，仅在服务期限内提供保障；
+\n 5、本平台及其合作伙伴作为为数字视频信息提供信息存储空间的网络服务提供者，不对使用者上传的数字视频信息承担任何形式的法律责任。就使用者上传的数字视频信息引起的任何法律纠纷和责任，使用者应当独自解决和承担；
+\n 6、本平台对上述协议具有唯一解释权。
+
+</string>
+
+    <string name="copyright_content">
+深圳全息信息科技发展有限公司（以下简称：“ 全息 ”）根据用户指令提供作品上传、下载以及传播等，对于第三方所上传的内容不做任何选择或整理或编辑或推荐，属于提供信息存储空间的网络服务提供者。        一贯高度重视知识产权保护并遵守中华人民共和国各项知识产权法律、法规和具有约束力的规范性文件。        坚信知识产权拥有者的合法权益应该得到尊重和依法保护。全息坚决反对任何违反中华人民共和国有关知识产权的法律法规的行为。向来十分重视网络版权及其他知识产权以及用户权益的保护。
+\n\n如果您认为全息用户通过全息提供的信息存储空间所上载、传播的视听内容侵犯了您的相关权益的，请您向全息发出权利通知，全息将根据相关法律规定采取措施删除相关内容，您可以向全息所设立的专门接受版权投诉和侵权通知的邮箱发送通知书。
+\n\n肖像、名誉等申诉
+\n\n其中侵犯公民个人名誉权、肖像权的投诉资料请发至邮箱：market@holosz.com
+\n\n版权申诉
+\n\n侵犯个人或单位的著作权、商标权等知识产权的情况请将投诉资料发至邮箱：market@holosz.com
+\n\n申诉需知
+\n\n投诉方应当提供包含下列文件：
+\n\n 1.	权利人的姓名（名称）、联系方式、地址、身份证扫描件（自然人）、企业法人营业执照（单位）、法定代表人身份证明（单位）；
+\n\n 2.	要求删除或者断开链接的侵权作品的准确名称和网络地址，以便全息能够发现并初步审核涉嫌侵权作品；
+\n\n 3.	认为构成侵权的初步证明材料，包括但不限于对作品享有版权或依法享有信息网络传播权的权属证明，以及对涉嫌侵权作品侵权事实的举证。
+\n\n 4.	通知书需由权利人或其合法授权人亲笔签名，若为单位则需加盖单位公章。
+\n\n权利人应对通知书的真实性负责。若通知书的内容不真实，权利人将承担由此造成的全部法律责任。
+一旦收到符合上述要求之通知，我们将在合理时间内删除涉嫌侵权的作品。如不符合上述条件，我们会请阁下提供相应信息，且暂不采取包括删除等相应措施。
+\n\n在全息上载作品的用户视为同意全息就前款情况所采用的相应措施。全息不因此而承担任何违约责任或其他任何法律责任。全息在收到上述通知后会发送电子邮件通知上载该等作品的用户。对于多次上载涉嫌侵权作品的用户，我们将取消其用户资格。
+\n\n在您发送邮件后，工作人员会尽快处理，由于涉及内容不同，所需周期也不同，请您耐心等待。
+</string>
+
+
+    <string name="Word_usercontent">
+欢迎您与各我方平台经营者（详见定义条款）共同签署本《用户服务协议》（下称“本协议”）并使用我方平台服务！
+各条款标题仅为帮助您理解该条款表达的主旨之用，不影响或限制本协议条款的含义或解释。为维护您自身权益，建议您仔细阅读各条款具体表述。
+您在申请注册流程中点击同意本协议之前，应当认真阅读本协议。请您务必审慎阅读、充分理解各条款内容，特别是免除或者限制责任的条款、法律适用和争议解决条款。如您对协议有任何疑问，可向我方平台客服咨询。
+当您按照注册页面提示填写信息、阅读并同意本协议且完成全部注册程序后，即表示您已充分阅读、理解并接受本协议的全部内容，并与我方达成一致，成为我方平台“用户”。阅读本协议的过程中，如果您不同意本协议或其中任何条款约定，您应立即停止注册程序。
+如果您未申请注册流程，或者在本协议生效前已成为我方平台的注册用户，则您通过访问和/或使用我方平台网站，即视为您表示同意接受本协议的全部内容，否则请您不要访问或使用我方平台网站。
+\n1.定义\n
+我方平台指：，我方平台经营者指：。以下可统一简称我方。我方平台服务：我方基于互联网，以包含我方平台网站、客户端（含APP\APK\SDK\API方式）、信息网络传播等方式在内的各种形态（包括未来技术发展出现的新的服务形态）向您提供的各项服务。\n
+\n2.协议范围\n
+2.1签约主体\n
+本协议由您与我方平台经营者共同缔结，本协议对您与我方平台经营者均具有合同效力。我方平台经营者是指经营我方平台的法律主体。本协议项下，我方平台经营者可能根据我方平台的业务调整而发生变更，变更后的我方平台经营者与您共同履行本协议并向您提供服务，我方平台经营者的变更不会影响您本协议项下的权益。我方平台经营者还有可能因为提供新的我方平台服务而新增，如您使用新增的我方平台服务的，视为您同意新增的我方平台经营者与您共同履行本协议。发生争议时，您可根据您具体使用的服务及对您权益产生影响的具体行为对象确定与您履约的主体及争议相对方。
+\n2.2补充协议\n
+由于互联网行业高速发展，您与我方签署的本协议列明的条款并不能完整罗列并覆盖您与我方所有权利与义务，现有的约定也不能保证完全符合未来发展的需求。因此，我方平台公示的相关声明及政策、我方平台规则和协议均为本协议的补充协议，与本协议不可分割且具有同等法律效力。如您使用我方平台服务，视为您同意上述补充协议。
+\n3.账户注册与使用\n
+3.1用户资格\n
+您确认在您开始使用/注册程序使用我方平台服务前，您应当具备中华人民共和国法律规定的与您行为相适应的民事行为能力。若您不具备前述与您行为相适应的民事行为能力，则您及您的监护人应依照法律规定承担因此而导致的一切后果。特别地，如果您是未成年人，请在您的监护人的同意和指导下访问和/或使用我方平台网站。
+\n3.2账户说明\n
+当您按照注册页面提示填写信息、阅读并同意本协议且完成全部注册程序后，您可获得我方平台账户并成为我方平台用户。您有权使用您设置或确认的我方会员名、邮箱、手机号码（以下简称“账户名称”）及您设置的密码（账户名称及密码合称“账户”）登录我方平台。
+由于用户账户关联用户信息，仅当有法律明文规定、司法裁定或经我方同意，并符合我方平台规则规定的用户账户转让流程的情况下，您才可进行账户的转让。您的账户一经转让，该账户项下权利义务一并转移。除此外，您的账户不得以任何方式转让，否则由此产生的一切责任均由您承担。为使您更好地使用我方平台的各项服务，我方建议您按照我方平台要求及相关法律规定完成实名认证。如您的账户长期未登录，我方有权予以进行注销等清理，您的账户将不能再登录我方平台，相应服务同时终止。我方在对此类账户进行清理前，将以包括但不限于网站公告、站内消息、客户端推送信息等方式通知您。我方也将提供用户对账户自行注销的功能和服务。
+\n3.3注册信息管理\n
+3.3.1真实合法\n
+在使用我方平台服务时，您应当按我方平台页面的提示准确完整地提供您的信息（包括您的姓名及电子邮件地址、联系电话、联系地址等），以便我方在必要时与您联系。您了解并同意，您有义务保持您提供信息的真实性及有效性。您所设置的账户名不得违反国家法律法规及我方平台规则关于账户名的管理规定，否则我方可对您的账户名进行暂停使用或注销等处理，并向主管机关报告。您理解并承诺，您的账户名称、头像和简介等注册信息中不得出现违法和不良信息，没有冒用、关联机构或社会名人，您在账户注册过程中需遵守法律法规、社会主义制度、国家利益、公民合法权益、公共秩序、社会道德风尚和信息真实性等七条底线。您同意并授权，为了更好的为您提供服务以及确保您的账户安全，我方可以根据您提供的手机号码、身份证号码等信息，向全国公民身份号码查询服务中心、电信运营商、金融服务机构等可靠单位发起用户身份真实性、用户征信记录、用户手机号码有效性状态等情况的查询。
+\n3.3.2更新维护\n
+您应当及时更新您提供的信息，在法律有明确规定要求我方对部分用户的信息进行核实的情况下，我方将依法不时地对您的信息进行检查核实，您应当配合提供最新、真实、完整的信息。如我方按您最后一次提供的信息与您联系未果、您未按照我方的要求及时提供信息、您提供的信息存在明显不实的，您将承担因此对您自身、他人及我方造成的全部损失与不利后果。
+\n3.4账户安全规范\n
+您的账户为您自行设置并由您保管。建议您务必保管好您的账户，并确保您在每个上网时段结束时退出登录并以正确步骤离开我方平台。账户因您主动泄露或遭受他人攻击、诈骗等行为导致的损失及后果，均由您自行承担。您的账户只限您本人使用，不得出借或分享他人使用。当您的账户遭到未经授权的使用时，您应当立即通知我方平台，否则未经授权的使用行为均视为您本人的行为，您将自行承担所有由此导致的损失及后果。除我方存在过错外，您应对您账户项下的所有行为结果（包括但不限于在线签署各类协议、发布信息、购买商品及服务及披露信息等）负责。如发现任何未经授权使用您账户登录我方平台或其他可能导致您账户遭窃、遗失的情况，建议您立即通知我方。您理解我方对您的任何请求采取行动均需要合理时间，除我方存在过错外，我方对在采取行动前已经产生的后果不承担任何责任。
+\n4.我方平台服务及规范\n
+4.1我方平台服务\n
+我方平台向您提供包括但不限于以下服务：\n
+1)我方直接拥有或运营网站的客户端进行向用户的内容提供、内容分发、内容消费等服务；客户端包括但不限于PC、平板、手机、电视（含智能电视）、机顶盒等全部终端的客户端（包括不限于APP、APK、SDK、API等方式和未来可能存在的方式）；
+        \n2)（付费）会员服务（下称“会员服务”）；
+\n3)游戏服务（下称“游戏服务”）；
+\n4) 视频上传分享服务（下称“内容上传服务”）；
+\n7) 搜库搜索服务（下称“搜索服务”）；
+\n8)商品或者服务购买服务；
+\n9)我方平台提供的其他技术和/或服务（下称“其他技术和服务”）。
+\n（以上服务统称为“我方平台服务”）。
+我方平台服务，均仅限于您在我方平台使用，任何以恶意破解等非法手段将我方服务与我方平台分离的行为，均不属于本协议中约定的我方服务。由此引起的一切法律后果由行为人负责，我方将依法追究行为人的法律责任。
+我方平台网站官方公布的方式为下载、注册、登录、使用我方服务的唯一合法方式，您通过其他任何渠道、任何途径、任何方式获取的我方服务（包括且不限于账户、积分、经验值、积分商品、兑换商品、赠品、下载等）均为非法取得，我方概不承认其效力，且一经发现我方有权立即做出删除、取消、清零、封号等处理，任何因此导致的一切不利后果均由您自行承担。
+我方有权向您公告（包括但不限于弹出页面、网站公告、站内消息等方式）以修改、替换、升级与我方平台服务相关的任何软件。如果您不同意或者不接受我方平台服务相关软件的修改、替换、升级，请直接拒绝、停止、取消，否则视为您同意并接受我方平台相关软件的修改、替代、升级，同时该同意并接受的行为仍受本协议约束。
+您理解并认可，您使用我方平台网站或我方平台账户所获得的使用记录、订阅、收藏、积分、经验值、成长值、等级、身份标识、赠券、虚拟积分商品、虚拟兑换商品、虚拟赠品、下载等衍生物，您确认对其不享有所有权（除非我方平台另有公告说明），我方许可您按照我方平台规则进行使用，我方对上述衍生物不承担任何赔偿责任。
+您同意并保证，不得利用我方平台服务或其衍生物（包括但不限于账户、积分、等级、积分商品、活动赠品、下载等服务）进行倒卖、转手、置换、抵押有价交易等方式非法牟利。您不会利用我方平台服务或其衍生物侵犯他人的合法权益，禁止通过网络漏洞、恶意软件或其他非法手段窃取、盗用他人的账户、积分、积分商品等。
+您理解并认可，如果您通过第三方支付工具在我方平台账户支付或充值后可能产生的任何商业风险（包括但不限于不法分子利用您账户或银行卡等有价卡等进行违法活动），该等风险均有可能给您造成相应的经济损失，我方在充分履行其在本协议项下义务和符合法律规定的前提下，不对您的前述风险和损失承担任何责任。
+\n4.2服务规范\n
+您可通过我方平台服务在我方平台上传、发布或传输相关内容，包括但不限于文字、软件、程序、图形、图片、声音、音乐、视频、音视频、链接等信息或其他资料（下称“内容”），但您需对此内容承担相关的法律责任。除非有相反证明，我方将您视为您在我方平台上传、发布或传输的内容的版权拥有人。您使用我方平台服务上传、发布或传输内容即代表了您有权且同意在全世界范围内，永久性的、不可撤销的、免费的授予我方对该内容的存储、使用、发布、复制、修改、改编、出版、翻译、据以创作衍生作品、传播、表演和展示等权利；将内容的全部或部分编入其他任何形式的作品、媒体、技术中的权利；对您的上传、发布的内容进行商业开发的权利；通过有线或无线网络向您的计算机终端、移动通讯终端（包括但不限于便携式通讯设备如手机和智能平板电脑等）、手持数字影音播放设备、电视接收设备（模拟信号接收设备、数字信号接收设备、数字电视、IPTV、互联网电视、带互联网接入功能的播放设备等）等提供信息的下载、点播、数据传输、移动视频业务（包括但不限于SMS、MMS、WAP、IVR、Streaming、3G、手机视频等无线服务）、及其相关的宣传和推广等服务的权利；以及再授权给其他第三方以上述方式使用的权利。
+您理解并知晓在使用我方平台服务时，所接触的内容和信息来源广泛，我方无法对该内容和信息的准确性、真实性、可用性、安全性、完整性和正当性负责。您理解并认可您可能会接触到不正确的、令人不快的、不适当的或令人厌恶的内容和信息，您不会以此追究我方的相关责任。我方不对用户在我方平台上传、发布或传输的任何内容和信息背书、推荐或表达观点，也不对任何内容和信息的错误、瑕疵及产生的损失或损害承担任何责任，您对内容和信息的任何使用需自行承担相关的风险。
+您同意我方在提供服务的过程中以各种方式投放商业性广告或其他任何类型的商业信息（包括但不限于在我方平台的任何位置上投放广告，在您上传、传播的内容中投放广告），您同意接受我方通过电子邮件、站内短信、手机短信、网站公告或其他方式向您发送促销或其他相关商业信息。
+您同意在使用我方平台服务过程中，遵守以下法律法规：《中华人民共和国网络安全法》、《中华人民共和国保守国家秘密法》、《中华人民共和国著作权法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《互联网电子公告服务管理规定》、《信息网络传播权保护条例》等有关计算机及互联网规定的法律、法规。在任何情况下，我方一旦合理地认为您的行为可能违反上述法律、法规，可以在任何时候，不经事先通知终止向您提供服务。
+\n4.3禁止的内容\n
+您理解并保证您在我方平台上传、发布或传输的内容（包括您的账户名称等信息）应当遵守宪法、法律和行政法规，坚持为人民服务、为社会主义服务的方向，坚持正确舆论导向，发挥舆论监督作用，促进形成积极健康、向上向善的网络文化，维护国家利益和公共利益。我方平台有权对您上传、发布或传输的信息进行管理，发现法律、行政法规禁止发布或者传输的信息的，或含有以下内容的，我方平台将立即停止传输该信息，采取消除等处置措施，防止信息扩散，保存有关记录，并向有关主管部门报告：
+　　　\n（一）反对宪法确定的基本原则的；
+　　　\n（二）危害国家统一、主权和领土完整的；
+　　　\n（三）泄露国家秘密、危害国家安全或者损害国家荣誉和利益的；
+　　　\n（四）煽动民族仇恨、民族歧视，破坏民族团结，或者侵害民族风俗、习惯的；
+　　　\n（五）宣扬邪教、迷信的；
+　　　\n（六）扰乱社会秩序，破坏社会稳定的；
+　　　\n（七）诱导未成年人违法犯罪和渲染暴力、色情、赌博、恐怖活动的；
+　　　\n（八）侮辱或者诽谤他人，侵害公民个人名誉、隐私、知识产权和其他合法权益的；
+　　　\n（九）危害社会公德，损害民族优秀文化传统的；
+　　　\n（十）有关法律、行政法规和国家规定禁止的其他内容。
+\n如果您上传、发布或传输的内容含有以上违反法律法规的信息或内容的，或者侵犯任何第三方的合法权益，您将直接承担以上导致的一切不利后果。如因此给我方造成不利后果的，您应负责消除影响，并且赔偿我方因此导致的一切损失，包括且不限于财产损害赔偿、名誉损害赔偿、律师费、交通费等因维权而产生的合理费用。
+\n4.4禁止的行为
+\n您理解并保证不就我方平台服务进行下列的禁止的行为，也不允许任何人利用您的账户进行下列行为：
+\n 1) 在注册账户时，或使用我方平台服务时，冒充他人，或您讹称与任何人或实体有联系（包括设置失实的账户名称或接入另一用户的账户）；
+\n 2) 伪造标题或以其他方式操控内容，使他人误认为该内容为我方所传输；
+\n 3) 将无权传输的内容（例如内部资料、机密资料）进行上传、发布、发送电子邮件或以其他方式传输；
+\n 4) 发送任何未获邀约或未经授权的垃圾电邮、广告或宣传资料，或任何其他商业通讯；\n
+5) 未经我方明确许可，使用我方平台服务用于任何商业用途或为任何第三方的利益；\n
+6) 跟踪或以其他方式骚扰他人；\n
+7) 参与任何非法或有可能非法（由我方判断）的活动或交易，包括传授犯罪方法、出售任何非法药物、洗钱活动、诈骗等；\n
+8) 赌博、提供赌博数据或透过任何方法诱使他人参与赌博活动；\n
+9) 使用或利用我方知识产权（包括我们的商标、品牌、标志、任何其他专有数据或任何网页的布局或设计），或在其他方面侵犯我方任何知识产权（包括试图对我方平台客户端或所使用的软件进行逆向工程）；\n
+10) 通过使用任何自动化程序、软件、引擎、网络爬虫、网页分析工具、数据挖掘工具或类似工具，接入我方平台服务、收集或处理通过我方平台服务所提供的内容；\n
+11) 参与任何“框架”、“镜像”或其他技术，目的是模仿我方平台服务的外观和功能；\n
+12) 干预或试图干预任何用户或任何其他方接入我方平台服务；\n
+13) 故意散播病毒、网络蠕虫、特洛伊木马病毒、已损毁的档案或其他恶意代码或项目；\n
+14) 未经他人明确同意，分享或发布该等人士可识别个人身份的资料；\n
+15) 探究或测试我方平台服务、系统或其他用户的系统是否容易入侵攻击，或在其他方面规避（或试图规避）我方平台服务、系统或其他用户的系统的任何安全功能；\n
+16) 对我方平台服务所用的软件进行解编、反向编译或逆向工程，或试图作出上述事项；\n
+17) 为破坏或滥用的目的开设多个账户，或恶意上传重复的、无效的大容量数据和信息；\n
+18) 利用网络从事侵害他人名誉、隐私、知识产权和其他合法权益等活动；\n
+19) 故意或非故意违反任何相关的中国法律、法规、规章、条例等其他具有法律效力的规范。\n
+5.隐私权政策\n
+我方非常重视用户个人信息的保护，在您使用我方提供的服务时，您同意我方按照在我方平台上公布的隐私权政策收集、存储、使用、披露和保护您的个人信息。我方希望通过隐私权政策向您清楚地介绍我方对您个人信息的处理方式，因此我方建议您完整地阅读隐私权政策，以帮助您更好地保护您的隐私权。
+本条所指个人信息是指以电子或者其他方式记录的能够单独或者与其他信息结合识别自然人个人身份的各种信息，包括但不限于自然人的姓名、出生日期、身份证件号码、个人生物识别信息、住址、电话号码等。
+根据有关法律法规要求，网络产品、服务具有收集用户信息功能的，其提供者应当向用户明示并取得同意。我方特此通过本隐私权政策明确向您告知收集、使用用户个人信息的目的、方式和范围，查询、更正信息的渠道以及拒绝提供信息的后果。如果您不同意本隐私权政策任何内容，您应立即停止使用我方平台服务。当您使用我方平台提供的任一服务时，即表示您已同意我们按照本隐私权政策来合法收集、使用和保护您的个人信息。
+如您对本隐私权政策有任何疑问或对您的个人信息保护有任何投诉，您可以通过我方平台公布的联系方式与我们联系。
+\n5.1适用范围\n
+为向用户提供更好、更优、更个性化的服务是我方坚持不懈的追求，也希望我方可以更有效、方便地为您提供服务。本隐私权政策适用于我方平台提供的所有服务，您访问我方平台或登陆相关客户端使用我方平台提供的服务，均适用本隐私权政策。需要特别说明的是，本隐私权政策不适用于其他第三方向您提供的服务，例如我方平台上的第三方依托我方平台向您提供服务时（如第三方支付渠道），您向第三方提供的个人信息不适用于本隐私权政策，我方对任何第三方使用由您提供的信息不承担任何责任。我方将严格遵守法律法规规定，基于合法、合理正当和诚实信用必要的法定原则妥善处理或使用您的个人信息。
+\n5.2我们如何收集信息\n
+我方将严格遵守法律法规规定，基于合法、合理正当和诚实信用必要的法定原则妥善处理或使用您的个人信息。\n
+1) 您向我们提供的信息。\n
+当您在我方平台创建账户时，您必须至少向我们提供用户名、电话号码及/或电子邮箱等信息，并创建密码。 您在使用我方平台时，需要根据服务的内容，选择填写及/或提交服务所必须的信息，可能包括您的姓名、性别、出生年月日、身份证号码、护照姓、护照名、护照号码、电话号码、电子邮箱、地址、支付宝账号、微信支付账号、银行账号及相关附加信息（如您所在的省份和城市、邮政编码等）。如果您不使用某些服务，则无需提供相关信息，如使用对公业务，可能需要提供公司支付宝账号或其他账号。
+您使用我方平台服务时所储存的信息。\n
+此外，我们会收集您在使用我们服务时提供的内容信息。例如您在我方平台发布的信息， 我们的客户服务团队联系时您提供的相关信息，您参与问卷调查时向我们发送的问卷答复信息等。
+\n2) 在您使用服务过程中收集的信息。\n
+为了提供并优化您需要的服务，我们会根据您授予的权限，接收并记录的您的浏览器和计算机上、移动设备等上设备相关信息，这些信息包括：
+我方会根据您授予的权限，接收并记录的您的浏览器和计算机上、移动设备等上设备相关信息，这些信息包括：（1）设备属性（如设备型号、操作系统版本、设备设置、唯一设备标识符等软硬件特征信息等）；设备位置（如通过GPS、蓝牙或WIFI信号获得的位置信息）；（2）设备连接（IP地址、浏览器的类型、电信运营商、使用的语言、访问日期和时间及您需求的网页记录等）。（3）对于从您的各种设备上收集到的信息，我们可能会将它们进行关联，以便我们能在这些设备上为您提供一致的服务。
+单独的设备信息是无法与任何特定个人直接建立联系的数据，不属于个人信息。如果我们将设备信息与其他信息结合用于识别自然人个人身份，或者将其与个人信息结合使用，则在结合使用期间，此类设备信息将被视为个人信息。
+您通过我方的内容上传服务所上传的内容所包含的信息，例如拍摄或上传的共享照片或录像、影片的日期、时间或地点等。
+除上述信息外，我们还可能为了提供服务及改进服务质量的合理需要而收集您的其他信息，包括您与我方的关联方、我方合作伙伴之间互动时我们收集的相关信息。与此同时，为提高您使用我方平台提供的服务的安全性，更准确地预防钓鱼网站欺诈和木马病毒，我们可能会通过了解一些您的网络使用习惯、您常用的软件信息等手段来判断您账户的风险，并可能会记录一些我们认为有风险的URL。
+您了解并同意，以下信息不适用本隐私权政策：\n
+a) 您在使用我方平台提供的搜索服务时输入的关键字信息；\n
+b) 违反法律规定或违反我方规则行为及我方已对您采取的措施；\n
+c) 应法律法规要求需披露的个人信息；\n
+d) 紧急情况下，为维护用户及公众的利益；\n
+e) 您已自行在网络上公开的信息或者其他已合法公开的个人信息。\n
+5.3我们如何使用信息\n
+因收集您的信息是为了向您提供服务及提升服务质量的目的，为了实现这一目的，我们会把您的信息用于下列用途：\n
+1) 向您提供您使用的各项服务，并设计、维护、改进这些服务。\n
+2) 向您推荐您可能感兴趣的内容，包括但不限于向您发出产品和服务信息、内容推荐信息、营销信息、合作信息，或通过系统向您展示个性化的第三方推广信息，或者在征得您同意的情况下与我方的关联方、合作伙伴共享信息以便他们向您发送有关其产品和服务的信息。如您不希望接收上述信息，可通过相应的退订功能进行退订。
+\n 3) 向您提供与您更加相关的广告以替代普遍投放的广告。
+\n 4) 我们可能使用您的个人信息以预防、发现、调查欺诈、危害安全、非法或违反与我们或其关联方协议、政策或规则的行为，以保护您、其他我们用户，或我们或其关联方的合法权益。
+\n 5) 我们可能会将来自某项服务的个人信息与来自其他服务的信息结合起来，用于为了给您提供更加个性化的服务使用，例如让您拥有更广泛的社交圈的需要而使用、共享或披露。
+\n 6) 让您参与有关我们产品和服务的调查，或者促销及抽奖活动。
+\n 7) 经您许可的其他用途。
+\n 5.4您共享的信息\n
+您可以通过我们的服务建立联系和相互分享。当您通过我们的服务创建交流、交易或内容分享时，您可以自主选择沟通、交易或分享的对象，能够看到您的会员等级、身份、交易、联络方式、交流信息或分享内容等。
+在使用我方平台、我方平台服务进行视频存储服务、分发服务、点播消费服务、观看、发表评论和弹幕、在线购物时，可能会涉及披露自己的个人信息。请您妥善保护自己的个人信息，仅在必要的情形下向他人提供、展示自己的信息。如您发现自己的个人信息泄密，尤其是您的账户或密码发生泄露，请您立即联系我方平台网站客服，采取相应措施。
+\n5.5我们如何共享信息\n
+我们对您的信息承担保密义务，除下列情形外，我们不会与任何其他第三方共享您的个人信息。
+\n 1) 事先获得授权。获得您的授权后，我们会与其他公司、组织和个人分享您的个人信息。只有您选择同意，我们才会共享您的身份证号、护照号、银行卡号、个人隐私信息等个人敏感信息。
+\n 2) 向我方的关联方分享您的个人信息。
+\n 3) 用于外部数据处理。向可信赖的合作伙伴提供您的个人信息，让他们根据我们的指示并遵循我们的隐私权政策以及其他任何相应的保密和安全措施来为我们处理这些信息。
+\n 4)出于法律原因。为遵守适用的法律法规、法律程序、诉讼或者行政机关、司法机构依法提出的要求，我们可能有必要披露您的个人信息。
+\n 5）如果我们确定您出现违反中国有关法律法规或者我方平台相关用户协议或相关规则的情况，或者为保护我方、我方平台及我方关联公司或者用户或者公众的合法权益、权利、财产或安全免遭损害，我们也可能披露关于您的信息。
+\n 5.7信息存储\n
+\n我方收集的有关您的信息和资料将保存在我方及（或）其关联公司的服务器上，这些信息和资料可能传送至您所在国家、地区或我方收集信息和资料所在地并在该地被访问、存储和展示。我们将在实现本隐私政策中所述目的所必需的期间内保留你的个人信息，除非法律要求或允许在更长的期间内保留这些信息。
+\n 5.8您的个人信息保护
+\n为保障您的信息安全，我们努力采取各种合理的物理、电子和管理方面的安全措施来保护您的信息，使您的信息不会被泄漏、毁损或者丢失，包括但不限于数据中心的访问控制。我们对可能接触到您的信息的员工或外包人员也采取了严格管理，包括但不限于根据岗位的不同采取不同的权限控制，与他们签署保密协议，监控他们的操作情况等措施。我方会按现有技术提供相应的安全措施来保护您的信息，提供合理的安全保障，我方将尽力做到使您的信息不被泄漏、毁损或丢失。
+在使用我方平台服务进行网上交易时，您不可避免的要向交易对方或潜在的交易对方披露自己的个人信息，如银行账户信息、联络方式或者邮政地址。请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。如您发现自己的个人信息泄密，尤其是你的账户及密码发生泄露，请您立即联络我方客服，以便我方采取相应措施。
+\n5.9未成年人保护
+\n 我们重视未成年人的个人信息保护，如您为未成年人，建议您请您的监护人仔细阅读本隐私权政策，并在征得您的监护人同意的前提下使用我们的服务或向我们提供信息。
+\n5.10您如何管理自己的信息
+\n 我们将按《中华人民共和国网络安全法》的要求，进行技术开发，通过提供便捷的方法，让您可以访问、更正及删除自己的账户信息或使用我们的服务时您提供的其他个人信息。例如您可以登录“我的账户”查询、修改自己的个人资料、隐私设置、安全设置，删除您的个人注册信息。
+\n 5.11本隐私政策的修订
+\n 我们可不定期修改我方平台隐私政策，变更后的我方平台隐私政策将在修订生效前通过我方平台公告或以其他适当方式通知您。该等情况下，若您继续使用我们的服务，即表示同意受经修订的我方平台隐私权政策的约束。
+\n 6.第三方链接
+\n 我方平台服务可能会包含与其他网站或资源的链接。我方对于前述网站或资源的内容、隐私政策和活动，无权控制、审查或修改，因而也不承担任何责任。我方建议您在离开我方平台，访问其他网站或资源前仔细阅读其服务条款和隐私政策。
+\n 7.商品价格
+\n 本平台上显示的所有商品或者服务价格都是以人民币为计价单位，包括所有的税费，但不包括运费。结帐之前运费会自动计算包含在订单总价之内。在商品详情页面里您可以找到所有的相关信息，支付价格为下订单时的有效价格。
+\n8.订单
+\n8.1 本平台保留对单个商品的总出售数量进行限制、对单个订单的商品购买数量及同一IP地址对同类商品购买数量进行限制的权利。
+\n8.2 根据您填写的订单信息，系统将会生成一份包含您的订单的必要信息的电子订单表格。依据这些信息生成的最终订单表格被认为是该次交易的有效证据，这份文件被认为是所有的发货、问题、退货和争议事项的参考，所以您必须非常仔细地复查这些信息并纠正一切可能的错误。点击“完成”意味着您认可订单表格中包含的所有信息都是正确和完整的。
+\n8.3 如果您填写的收货人与用户本人不一致的，收货人的行为和意思表示视为您的行为和意思表示，您应对收货人的行为及意思表示的法律后果承担连带责任。
+\n9.取消订单\n
+9.1 如您需修改订单请在下单后一小时内自助网上修改（包括合并订单），如订单显示“订单已审核”将不能再进行修改。\n
+9.2 您也可以选择取消订单，对反复的取消行为，我们可能会调查其原因，也可能会成为我们可能拒绝向您提供服务、冻结或关闭您的个人帐户的原因。\n
+10.合同成立\n
+您通过本网站下达了订单后，仅表示系统接收到了您下单的订单，只有我方将订单上的商品向您发出时，双方之间的买卖合同才成立。而且，如果您在一份订单里订购了多种商品并且我方只给您发出了部分商品时，您与我方之间仅仅就已经发出的那一部分商品成立买卖合同。
+\n 11.商品缺货\n
+我方平台接收到您的订单以后，发现所订购的商品全部或部分缺货。在这种情况下，我方会就缺货的商品详细情况与您联系，并提供您选择的机会来取消整个订单或用代替商品来替换缺货的物品来变更订单。如果您在收到此类通知15天之内没有取消订单，我方将把有货的商品送达或者在没有一件订购的商品有货的情况下取消该订单。
+\n 12.配送服务\n
+您所订购的商品有两种配送方式：（1）由我方选择具有运输服务资质的公司为您提供运输代理服务；（2）。上述任一配送方式下，您确认并同意一旦我方平台或者品牌供应商向运输代理服务公司交付你订购的商品，意味着您与提供运输代理服务公司签订了运输代理协议，形成了运输代理合同法律关系；相关商品灭失及毁损风险自商品交付至运输代理服务公司起转移给您。
+\n 13.交货\n
+13.1 您所订购的商品将被送至订单表格上注明的送货地址。无论什么原因商品不能送达到送货地址的，我方将会尽快跟您取得联系。假如从我们第一次试图跟您联系之日7天内您没有提供答复，我方有权取消该订单。
+\n 13.2 在您收到订购商品的同时，请您书面签收证明您收到了完好状态的商品。如果包装出现破损，请拒收。
+\n 13.3 如果送货单中的商品列表与您的订单表格中所记录的不同，或者您收到的商品与送货单中的商品列表不符，您可以按照我方对外公布且正在实施的退货政策及退货程序，将相应的商品退回我方或者我方指定的第三方。而且，您务必于收到所订购的商品之日起7天内，通过发送电子邮件至或致电将上述情况告知我方；否则，我方有权不予退货。
+\n 14.付款及所有权
+\n我方平台对外销售的商品，如果在我方将商品交付第三方承运人运输之时：
+\n（1）您已经支付商品的全额的购买价款的，则其所有权于我方将其交付第三方承运人之时转移至您的名下；
+\n（2）您尚未支付商品的全额的购买价款的，则其所有权于您支付全额的购买价款之时转移至您的名下。
+\n在商品所有权按照前款约定转移至您的名下之前，商品所有权由我方平台、品牌供应商或其授权的经销商所有。
+\n 15.退回订单
+\n15.1 如果您对您通过我方平台所订购的商品不满意，您可以退回所有或部分商品。对于我方已经收取到的被退回的商品的价款，我方将扣除退货运费后之后将相应的余额返还给您。您在下达的订单如果使用了代金券的，我方亦将会按照相应的活动规则进行返还。
+\n15.2 您如果需要退货的，务必于收到商品之日起7天内主动联系我方客服，将您需要退货的需求告知我方。而且，您务必于收到商品之日起7天内，按照不影响商品正常使用及再次销售的原则，将您需要退货的商品及其包装、赠品、送货单、税务发票（如有）等送货时一并交付给您的物品和资料，全部完好无损地退回我方或该商品的品牌供应商。否则，我方有权不予退货。除有相反的证据外，退货的日期以我方或者该商品的品牌供应商收到的包裹上显示的寄出邮戳所显示的日期为准。对于某些商品，如我方在商品详情页面及有关退货政策中已提示该类商品不予以退货的，您的下达订单行为将被视为您已同意接受我方对此类商品不予退货的安排。
+\n15.3 我方有权拒绝不符合我方对外公布实施的退货政策所规定的条件的所有退货。仅当我方确认以上规定的这些条款得到了适时的遵从后，我方才会启动返还货款金额的程序。我方收到退货后7天内，所有的退款均遵循我方退换货政策操作。
+\n15.4 如果您的退货与上述退货规定不符，您将没有资格得到任何退款。不过，您仍有资格自行支付费用（包括运费）以便接收已经退回到我方的商品。如果您不想接收已经退回到我方的商品，我方有权保有这些商品并保留已经收到的金额。
+\n16.关于商品销售的免责声明
+\n16.1 由于用不同手机终端设备观看时网页显示的差异，我方促销的商品在图像和颜色方面可能跟真实的物品不尽一致。因此，所有显示的图片、视频和其他商品显示方法仅限于图示目的，在任何情况下不认为是合同的组成部分。假如供出售的商品跟网站上的描述不同，对您唯一的补救措施是根据本协议在没有使用的情况下退回该商品。
+\n16.2.我方保留根据市场价格波动随时修改上线商品价格的权利而无须事先通知。在由于排版错误或供应商提供价格信息错误的情况下以不正确的价格列出来的商品，我方有拒绝或取消任何对以不正确的价格列出来的商品所下订单的权利。
+\n16.3 由于合理的或不可避免的送货延迟对您或第三方带来的任何损失，我方不负任何责任。在这种情况下，我方将尽快地把任何可预知的延迟情况通知您，并在此时请您选择是否取消订单。
+\n18.用户的违约及处理
+\n18.1违约认定\n
+发生如下情形之一的，视为您违约：
+\n（一）使用我方平台服务时违反有关法律法规规定的；
+\n（二）违反本协议或本协议补充协议约定的。
+\n为适应互联网行业发展和满足海量用户对高效优质服务的需求，您理解并同意，我方可在我方平台规则中约定违约认定的程序和标准。如：我方可依据您的用户数据与海量用户数据的关系来认定您是否构成违约；您有义务对您的数据异常现象进行充分举证和合理解释，否则将被认定为违约。
+\n18.2违约处理措施
+\n您在我方平台上发布的内容和信息构成违约的，我方可根据相应规则立即对相应内容和信息进行删除、屏蔽等处理或对您的账户进行暂停使用、查封、注销等处理。
+\n您在我方平台上实施的行为，或虽未在我方平台上实施但对我方平台及其用户产生影响的行为构成违约的，我方可依据相应规则对您的账户执行限制参加活动、中止向您提供部分或全部服务等处理措施。如您的行为构成根本违约的，我方可查封您的账户，终止向您提供服务。
+\n如果您在我方平台上的行为违反相关的法律法规，我方可依法向相关主管机关报告并提交您的使用记录和其他信息。
+\n18.3赔偿责任
+\n如您的行为使我方及/或其关联公司遭受损失（包括自身的直接经济损失、商誉损失及对外支付的赔偿金、和解款、律师费、诉讼费等间接经济损失），您应赔偿我方及/或其关联公司的上述全部损失。
+\n如您的行为使我方及/或其关联公司遭受第三人主张权利，我方及/或其关联公司可在对第三人承担金钱给付等义务后就全部损失向您追偿。
+\n18.4特别约定
+\n我方负责"按现状"和"可得到"的状态向您提供我方平台服务。我方依法律规定承担相应义务，但无法对由于信息网络设备维护、连接故障，电脑、通讯或其他系统的故障，黑客活动、计算机病毒、电力故障，罢工，暴乱，火灾，洪水，风暴，爆炸，战争，政府行为，司法行政机关的命令或因第三方原因而给您造成的损害结果承担责任。
+\n我方通过中华人民共和国境内的设施控制和提供我方平台服务，我方不担保控制或提供的服务在其他国家或地区是适当的、可行的，任何在其他司法辖区使用我方平台服务的用户应自行确保其遵守当地的法律法规，我方对此不承担任何责任。
+\n19.协议的变更
+\n我方可根据国家法律法规变化及我方平台服务变化的需要，不时修改本协议、补充协议，变更后的协议、补充协议（下称“变更事项”）
+\n如您对变更事项不同意的，您应当于变更事项确定的生效之日起停止使用我方平台服务；如您在变更事项生效后仍继续使用我方平台服务，则视为您同意已生效的变更事项。
+\n20.通知
+\n您同意我方以以下合理的方式向您送达各类通知：
+\n（一）公示的文案；
+\n（二）站内消息、弹出消息、客户端推送的消息；
+\n（三）根据您预留于我方平台的联系方式发出的电子邮件、手机短信、函件等。
+\n21.协议的终止
+\n21.1终止的情形
+\n您有权通过以下任一方式终止本协议：
+\n（一）在满足我方平台网站公示的账户注销等清理条件时您通过网站注销您的账户的；
+\n（二）变更事项生效前您停止使用并明示不愿接受变更事项的；
+\n（三）您明示不愿继续使用我方平台服务，且符合我方平台终止条件的。
+\n出现以下情况时，我方可以通知您终止本协议：
+\n（一）您违反本协议约定，我方依据违约条款终止本协议的；
+\n（二）您转让本人账户、盗用他人账户、发布违禁内容和信息、骗取他人财物、采取不正当手段谋利等行为，我方依据我方平台规则对您的账户予以查封的；
+\n（三）除上述情形外，因您多次违反我方平台规则相关规定且情节严重，我方依据我方平台规则对您的账户予以查封的；
+\n（四）您的账户被我方依据本协议进行注销等清理的；
+\n（五）您在我方平台有侵犯他人合法权益或其他严重违法违约行为的；
+\n（六）其它根据相关法律法规我方应当终止服务的情况。
+\n21.2协议终止后的处理
+\n本协议终止后，除法律有明确规定外，我方无义务向您或您指定的第三方披露您账户中的任何信息。
+\n本协议终止后，我方享有下列权利：
+\n（一）停止收集和使用您的个人信息，但可继续保存您留存于我方平台的其他内容和信息；
+\n（二）对于您过往的违约行为，我方仍可依据本协议向您追究违约责任。
+\n22.法律适用、管辖与其他
+\n本协议之订立、生效、解释、修订、补充、终止、执行与争议解决均适用中华人民共和国法律；如法律无相关规定的，参照商业惯例及/或行业惯例。
+\n您因使用我方平台服务所产生及与我方平台服务有关的争议，由我方与您协商解决。协商不成时，任何一方均可向深圳市有管辖权的人民法院提起诉讼。
+\n本协议任一条款被视为废止、无效或不可执行，该条应视为可分的且并不影响本协议其余条款的有效性及可执行性。
+</string>
+    <string name="login_registe">登陆/注册</string>
+    <string name="version">版本</string>
+    <string name="introduction">简介</string>
+    <string name="long_time">
+        "时长:"%s"分钟"
+    </string>
+    <string name="collection">收藏</string>
+    <string name="collectioned">已收藏</string>
+    <string name="submit_success">提交成功</string>
+    <string name="report_title">举报</string>
+
+
+
+
+    <string name="ssdk_oks_share">分享</string>
+    <string name="ssdk_oks_sharing">分享操作正在后台进行…</string>
+    <string name="ssdk_oks_share_failed">分享失败</string>
+    <string name="ssdk_oks_share_completed">分享成功</string>
+    <string name="ssdk_oks_share_canceled">分享已取消</string>
+    <string name="ssdk_oks_cancel">取消</string>
+    <string name="ssdk_oks_multi_share">图文分享</string>
+    <string name="ssdk_oks_confirm">确定</string>
+    <string name="ssdk_oks_contacts">联系人</string>
+    <string name="ssdk_oks_pull_to_refresh">下拉刷新</string>
+    <string name="ssdk_oks_release_to_refresh">松开刷新</string>
+    <string name="ssdk_oks_refreshing">刷新中…</string>
+
+
+    <string name="ssdk_weibo_oauth_regiseter">应用授权</string>
+    <string name="ssdk_website">http://www.mob.com</string>
+    <string name="ssdk_weibo_upload_content">分享图片</string>
+    <string name="ssdk_wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="ssdk_google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="ssdk_qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
+    <string name="ssdk_pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
+    <string name="ssdk_instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
+    <string name="ssdk_yixin_client_inavailable">目前您的易信版本过低或未安装，需要安装易信才能使用</string>
+    <string name="ssdk_line_client_inavailable">目前您的Line版本过低或未安装，需要安装Line才能使用</string>
+    <string name="ssdk_kakaotalk_client_inavailable">目前您的KakaoTalk版本过低或未安装，需要安装KakaoTalk才能使用</string>
+    <string name="ssdk_kakaostory_client_inavailable">目前您的KakaoStory版本过低或未安装，需要安装KakaoStory才能使用</string>
+    <string name="ssdk_whatsapp_client_inavailable">目前您的WhatsApp版本过低或未安装，需要安装WhatsApp才能使用</string>
+    <string name="ssdk_laiwang_client_inavailable">目前您的来往版本过低或未安装，需要安装来往才能使用</string>
+    <string name="ssdk_alipay_client_inavailable">目前您的支付宝版本过低或未安装，需要安装支付宝才能使用</string>
+    <string name="ssdk_facebookmessenger_client_inavailable">目前您的FacebookMessenger版本过低或未安装，需要安装才能使用</string>
+
+    <string name="ssdk_sinaweibo">新浪微博</string>
+    <string name="ssdk_tencentweibo">腾讯微博</string>
+    <string name="ssdk_qzone">QQ空间</string>
+    <string name="ssdk_wechat">微信好友</string>
+    <string name="ssdk_wechatmoments">微信朋友圈</string>
+    <string name="ssdk_wechatfavorite">微信收藏</string>
+    <string name="ssdk_facebook">Facebook</string>
+    <string name="ssdk_twitter">Twitter</string>
+    <string name="ssdk_renren">人人网</string>
+    <string name="ssdk_kaixin">开心网</string>
+    <string name="ssdk_email">邮件</string>
+    <string name="ssdk_shortmessage">信息</string>
+    <string name="ssdk_sohumicroblog">搜狐微博</string>
+    <string name="ssdk_sohusuishenkan">搜狐随身看</string>
+    <string name="ssdk_neteasemicroblog">网易微博</string>
+    <string name="ssdk_douban">豆瓣</string>
+    <string name="ssdk_youdao">有道云笔记</string>
+    <string name="ssdk_evernote">印象笔记</string>
+    <string name="ssdk_linkedin">领英</string>
+    <string name="ssdk_googleplus">Google+</string>
+    <string name="ssdk_foursquare">FourSquare</string>
+    <string name="ssdk_qq">QQ</string>
+    <string name="ssdk_pinterest">Pinterest</string>
+    <string name="ssdk_flickr">Flickr</string>
+    <string name="ssdk_tumblr">Tumblr</string>
+    <string name="ssdk_dropbox">Dropbox</string>
+    <string name="ssdk_vkontakte">VK</string>
+    <string name="ssdk_instagram">Instagram</string>
+    <string name="ssdk_yixin">易信</string>
+    <string name="ssdk_yixinmoments">易信朋友圈</string>
+    <string name="ssdk_mingdao">明道</string>
+    <string name="ssdk_kakaotalk">KakaoTalk</string>
+    <string name="ssdk_kakaostory">KakaoStory</string>
+    <string name="ssdk_line">Line</string>
+    <string name="ssdk_bluetooth">蓝牙</string>
+    <string name="ssdk_whatsapp">WhatsApp</string>
+    <string name="ssdk_pocket">Pocket</string>
+    <string name="ssdk_instapaper">Instapaper</string>
+    <string name="ssdk_instapaper_email">邮箱</string>
+    <string name="ssdk_instapaper_pwd">密码</string>
+    <string name="ssdk_instapaper_login">登录</string>
+    <string name="ssdk_instapaper_logining">登录中…</string>
+    <string name="ssdk_instapager_email_or_password_incorrect">Email或密码不正确</string>
+    <string name="ssdk_facebookmessenger">Facebook Messenger</string>
+    <string name="ssdk_laiwang">来往</string>
+    <string name="ssdk_laiwangmoments">来往动态</string>
+    <string name="ssdk_alipay">支付宝好友</string>
+    <string name="ssdk_alipaymoments">支付宝生活圈</string>
+    <string name="ssdk_plurk">Plurk</string>
+    <string name="ssdk_youtube">Youtube</string>
+    <string name="ssdk_dingding">钉钉</string>
+    <string name="ssdk_meipai">美拍</string>
+    <string name="ssdk_share_to_qzone">分享到QQ空间</string>
+    <string name="ssdk_share_to_qq">分享到QQ</string>
+    <string name="ssdk_share_to_facebook">分享到Facebook</string>
+    <string name="ssdk_mingdao_share_content">网页分享</string>
+    <string name="ssdk_share_to_mingdao">分享到明道</string>
+    <string name="ssdk_share_to_googleplus">分享到Google+</string>
+    <string name="ssdk_share_to_qzone_default">来自%s的分享</string>
+    <string name="ssdk_use_login_button">请改用“登录”按钮</string>
+    <string name="ssdk_share_to_youtube">分享到Youtube</string>
+
+    <string name="ssdk_gender_male">男</string>
+    <string name="ssdk_gender_female">女</string>
+    <string name="ssdk_symbol_ellipsis">...</string>
+</resources>

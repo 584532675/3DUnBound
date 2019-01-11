@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.SettingActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/word_f_345">
+        <!-- 激活 -->
+        <RelativeLayout
+            android:id="@+id/set_activerela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/lay_8"
+            android:paddingLeft="@dimen/lay_16"
+            android:paddingRight="@dimen/lay_1"
+            android:paddingTop="@dimen/lay_8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/Word_active"
+                android:textColor="@color/word_six_one"
+                android:textSize="@dimen/font_14" />
+
+            <ImageView
+                android:layout_width="@dimen/lay_30"
+                android:layout_height="@dimen/lay_30"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/main_setting_enter" />
+        </RelativeLayout>
+        <!-- 眼球追踪校准 -->
+        <RelativeLayout
+            android:id="@+id/set_eyeballrela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_activerela"
+            android:layout_marginTop="@dimen/lay_1px"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/lay_8"
+            android:paddingLeft="@dimen/lay_16"
+            android:paddingRight="@dimen/lay_8"
+            android:paddingTop="@dimen/lay_8"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/Word_eyeball"
+                android:textColor="@color/word_six_four"
+                android:textSize="@dimen/font_14" />
+
+            <ImageView
+                android:layout_width="@dimen/lay_30"
+                android:layout_height="@dimen/lay_30"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/main_setting_enter" />
+        </RelativeLayout>
+        <!-- 使用说明 -->
+        <RelativeLayout
+            android:id="@+id/set_introductionrela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_eyeballrela"
+            android:layout_marginTop="@dimen/lay_1px"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/lay_8"
+            android:paddingLeft="@dimen/lay_16"
+            android:paddingRight="@dimen/lay_8"
+            android:paddingTop="@dimen/lay_8"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/Word_introduction"
+                android:textColor="@color/word_six_four"
+                android:textSize="@dimen/font_14" />
+
+            <ImageView
+                android:layout_width="@dimen/lay_30"
+                android:layout_height="@dimen/lay_30"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/main_setting_enter" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/set_line1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lay_1px"
+            android:layout_below="@+id/set_introductionrela"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="12dp"
+                android:background="@color/word_e_7" />
+        </RelativeLayout>
+        <!-- 账户安全与问题 -->
+        <RelativeLayout
+            android:id="@+id/set_saferela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_line1"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/lay_8"
+            android:paddingLeft="@dimen/lay_16"
+            android:paddingRight="@dimen/lay_1"
+            android:paddingTop="@dimen/lay_8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/Word_safe"
+                android:textColor="@color/word_six_one"
+                android:textSize="@dimen/font_14" />
+
+            <ImageView
+                android:layout_width="@dimen/lay_30"
+                android:layout_height="@dimen/lay_30"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/main_setting_enter" />
+        </RelativeLayout>
+        <!-- 意见反馈 -->
+        <RelativeLayout
+            android:id="@+id/set_feedbackrela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_saferela"
+            android:layout_marginTop="@dimen/lay_1px"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/lay_8"
+            android:paddingLeft="@dimen/lay_16"
+            android:paddingRight="@dimen/lay_8"
+            android:paddingTop="@dimen/lay_8"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/Word_feedback"
+                android:textColor="@color/word_six_four"
+                android:textSize="@dimen/font_14" />
+
+            <ImageView
+                android:layout_width="@dimen/lay_30"
+                android:layout_height="@dimen/lay_30"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/main_setting_enter" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/set_line2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lay_1px"
+            android:layout_below="@+id/set_feedbackrela"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="12dp"
+                android:background="@color/word_e_7" />
+        </RelativeLayout>
+        <!-- 版权说明 -->
+        <RelativeLayout
+            android:id="@+id/set_banquanrela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_line2"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/lay_8"
+            android:paddingLeft="@dimen/lay_16"
+            android:paddingRight="@dimen/lay_1"
+            android:paddingTop="@dimen/lay_8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/Word_banquan"
+                android:textColor="@color/word_six_one"
+                android:textSize="@dimen/font_14" />
+
+            <ImageView
+                android:layout_width="@dimen/lay_30"
+                android:layout_height="@dimen/lay_30"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/main_setting_enter" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/set_line3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lay_1px"
+            android:layout_below="@+id/set_banquanrela"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="12dp"
+                android:background="@color/word_e_7" />
+        </RelativeLayout>
+
+        <!-- 清除缓存 -->
+        <RelativeLayout
+            android:id="@+id/set_cacherela"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_line3"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/lay_8"
+            android:paddingLeft="@dimen/lay_16"
+            android:paddingTop="@dimen/lay_8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/Word_clearcache"
+                android:textColor="@color/word_six_one"
+                android:textSize="@dimen/font_14" />
+
+            <TextView
+                android:id="@+id/set_cachetv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/lay_14"
+                android:text="@string/Word_zerocache"
+                android:textColor="@color/word_six_six"
+                android:textSize="@dimen/font_14" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/set_line4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lay_1px"
+            android:layout_below="@+id/set_cacherela"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="12dp"
+                android:background="@color/word_e_7" />
+        </RelativeLayout>
+        <!-- 切换播放器 -->
+        <RelativeLayout
+            android:id="@+id/set_player"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/set_cacherela"
+            android:background="@color/white"
+            android:paddingBottom="@dimen/lay_8"
+            android:paddingLeft="@dimen/lay_16"
+            android:paddingRight="@dimen/lay_1"
+            android:paddingTop="@dimen/lay_8">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/set_player"
+                android:textColor="@color/word_six_one"
+                android:textSize="@dimen/font_14" />
+
+
+            <ImageView
+                android:id="@+id/player_image"
+                android:layout_width="@dimen/lay_30"
+                android:layout_height="@dimen/lay_30"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/main_setting_enter" />
+
+            <TextView
+                android:id="@+id/content_player"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/lay_36"
+                android:layout_toLeftOf="@id/player_image"
+                android:gravity="center" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/set_line5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/lay_1px"
+            android:layout_below="@id/set_player"
+            android:background="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginLeft="12dp"
+                android:background="@color/word_e_7" />
+        </RelativeLayout>
+        <!-- 退出登录 -->
+        <TextView
+            android:id="@+id/set_layouttv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/set_line5"
+            android:layout_marginTop="@dimen/lay_15"
+            android:background="@color/white"
+            android:gravity="center"
+            android:paddingBottom="@dimen/lay_12"
+            android:paddingTop="@dimen/lay_12"
+            android:text="@string/Word_layout"
+            android:textColor="@drawable/red2black_textcolor" />
+    </RelativeLayout>
+</RelativeLayout>

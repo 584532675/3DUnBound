@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/lay_20"
+    android:paddingLeft="@dimen/lay_10"
+    android:paddingRight="@dimen/lay_10"
+    android:background="@color/white"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.VideosActivity"
+    >
+
+    <!-- 图片 -->
+    <RelativeLayout
+        android:id="@+id/videoonlineitem_imgrela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/word_six_d"
+        >
+        <ImageView
+            android:id="@+id/videolocalitem_imgiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/word_six_d"
+            android:scaleType="centerCrop"
+            />
+        <!-- 影片时长 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:paddingBottom="@dimen/lay_10"
+            android:paddingRight="@dimen/lay_10"
+            >
+            <TextView
+                android:id="@+id/videoonlineitem_timelongtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_14"
+                android:background="@android:color/transparent"
+                android:paddingTop="@dimen/lay_4"
+                android:paddingBottom="@dimen/lay_4"
+                android:paddingLeft="@dimen/lay_8"
+                android:paddingRight="@dimen/lay_8"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!-- 头像，名称 -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/videoonlineitem_imgrela"
+        android:layout_marginTop="@dimen/lay_10"
+        >
+        <!-- 名称 -->
+        <TextView
+            android:id="@+id/videoonlineitem_filmnametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/word_six_four"
+            android:textSize="@dimen/font_15"
+            android:ellipsize="end"
+            android:maxLines="2"
+            />
+        <!-- 头像，播放次数 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/videoonlineitem_filmnametv"
+            android:layout_marginTop="4dp"
+            >
+            <ImageView
+                android:id="@+id/videoonlineitem_headviewiv"
+                android:layout_width="@dimen/lay_25"
+                android:layout_height="@dimen/lay_25"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/head_noimg"
+                />
+            <TextView
+                android:id="@+id/videoonlineitem_authornametv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/videoonlineitem_headviewiv"
+                android:layout_marginLeft="@dimen/lay_8"
+                android:textColor="@color/word_six_nine"
+                android:textSize="@dimen/font_12"
+                />
+            <TextView
+                android:id="@+id/videoonlineitem_line"
+                android:layout_width="1dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/videoonlineitem_authornametv"
+                android:layout_marginLeft="@dimen/lay_8"
+                android:background="@color/word_six_nine"
+                />
+            <TextView
+                android:id="@+id/videoonlineitem_playcounttv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/videoonlineitem_line"
+                android:layout_marginLeft="@dimen/lay_8"
+                android:textColor="@color/word_six_nine"
+                android:textSize="@dimen/font_12"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

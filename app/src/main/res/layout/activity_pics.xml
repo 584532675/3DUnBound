@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pics"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.unbounded.video.com.unbounded.video.activity.VideosActivity"
+    android:fitsSystemWindows="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/word_f_345"
+        >
+        <!-- 推荐，本地选项卡 -->
+        <!-- tabs -->
+        <include
+            android:id="@+id/videos_tabs"
+            layout="@layout/main_pictabslayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!-- ViewPager 主要是加载内容的 -->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/videos_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/videos_tabs"
+            />
+    </RelativeLayout>
+</RelativeLayout>
